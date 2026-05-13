@@ -1,0 +1,4 @@
+namespace: weapon/melee/handmade
+items:
+  abrasive_disk_axe_handmade:
+    display_name: Самодельный топор из отрезного диска

@@ -1,0 +1,40 @@
+namespace: stuff
+items:
+  rope:
+    display_name: Моток верёвки
+  copper_wire:
+    display_name: Моток медного провода
+  battery_block:
+    display_name: Аккумуляторный блок
+  duct_tape:
+    display_name: Синяя изолента
+  duct_tape_low_grade:
+    display_name: Малярный скотч
+  glue_pva:
+    display_name: Клей ПВА
+  mounting_foam_pistol:
+    display_name: Пистолет для монтажной пены
+  mounting_foam_pistol_charged:
+    display_name: Заряженный пистолет для монтажной пены
+  mounting_foam:
+    display_name: Монтажная пена
+  box_nails:
+    display_name: Коробка с гвоздями
+  box_bolts:
+    display_name: Коробка с болтами
+  box_screws:
+    display_name: Коробка с саморезами
+  battery:
+    display_name: Аккумулятор
+  button:
+    display_name: Кнопка
+  circuit_board:
+    display_name: Печатная плата
+  display:
+    display_name: Дисплей
+  gear_b:
+    display_name: Большая шестерня
+  gear_s:
+    display_name: Мелкая шестерня
+  golden_dumbbell:
+    display_name: Золотая гантель

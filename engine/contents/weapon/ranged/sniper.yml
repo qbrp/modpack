@@ -1,0 +1,44 @@
+namespace: weapon/ranged/sniper
+items:
+  marlin:
+    display_name: Marlin 1895
+    tooltip: Yeehaw
+    gun:
+      barrel:
+        bullets: 5
+      ammunition:
+        item: ammunition/45-70bullet
+        display: Патрон 45-70 Government
+      smoke: [0.15, -0.1, 0.7]
+      rate: 20
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_mosin
+  mosinnagant:
+    display_name: Винтовка Мосина 1891
+    tooltip: 1918 год, Семья Романовых в расход
+    gun:
+      barrel:
+        bullets: 5
+      ammunition:
+        item: ammunition/7.62x54bullet
+        display: Патрон 7.62x54
+      smoke: [0.15, -0.1, 0.7]
+      rate: 35
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_mosin
+  sv-98:
+    display_name: СВ-98
+    tooltip: С оптикой
+    gun:
+      barrel:
+        bullets: 10
+      ammunition:
+        item: ammunition/7.62x51bullet
+        display: Патрон 7.62x51
+      smoke: [0.15, -0.1, 0.7]
+      rate: 35
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/assaults/gunfire_akm

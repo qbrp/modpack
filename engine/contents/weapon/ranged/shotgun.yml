@@ -1,0 +1,4 @@
+namespace: weapon/ranged/shotgun
+items:
+  spas12:
+    display_name: Franchi SPAS-12

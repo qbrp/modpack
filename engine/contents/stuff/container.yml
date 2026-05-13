@@ -1,0 +1,24 @@
+namespace: container
+items:
+  armored_case_default:
+    display_name: Контейнер из армированного пластика
+  armored_case_yellow_locked:
+    display_name: Жёлтый закрытый контейнер из армированного пластика
+  duffelbag:
+    display_name: Спортивная сумка
+  ammo_can:
+    display_name: Кейс для патронов
+  weapon_locker_full:
+    display_name: Оружейный шкаф заполнен
+  weapon_locker_empty:
+    display_name: Оружейный шкаф пуст
+  weapon_locker_almost_empty:
+    display_name: Оружейный шкаф почти пуст
+  gunbag:
+    display_name: Оружейная сумка
+  canister:
+    display_name: Баллон
+  jerrycan:
+    display_name: Канистра
+  watercan:
+    display_name: Пластиковая канистра

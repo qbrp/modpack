@@ -1,0 +1,8 @@
+namespace: weapon/melee/baton
+items:
+  baton:
+    display_name: Полицейская дубинка
+  telescopic_baton_unfold:
+    display_name: Телескопическая дубинка
+  telescopic_baton_fold:
+    display_name: Сложенная телескопическая дубинка

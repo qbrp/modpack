@@ -1,0 +1,19 @@
+namespace: decorative/interior
+items:
+  beam:
+    display_name: Металлическая балка
+  line1:
+    display_name: Изоляция посередине
+  line2:
+    display_name: Изоляция к стене
+  metal_hatch:
+    display_name: Металлический люк
+  metal_hatch_simple:
+    display_name: Металлический люк упрощённый
+  support:
+    display_name: Поддерживающая конструкция
+  wallcabinet:
+    display_name: Настенный шкаф
+  sofa_1x1:
+    display_name: Кресло
+    model: ~/obj/sofa_1x1

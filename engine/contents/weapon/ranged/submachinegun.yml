@@ -1,0 +1,17 @@
+namespace: weapon/ranged/submachinegun
+items:
+  mac10:
+    display_name: MAC-10
+    tooltip: A young nigga got it bad ‘cause I'm brown
+    gun:
+      barrel:
+        bullets: 30
+      ammunition:
+        item: ammunition/45acpround
+        display: Патрон 45 ACP
+      smoke: [0.15, -0.1, 0.2] # 1 - лево/право 2 - вверх/вниз 3 - ???
+      rate: 1
+      modes: [SELECTOR, AUTO]
+    sounds:
+      gunfire: weapon/ranged/gunfire_mac-10
+      volume: 100

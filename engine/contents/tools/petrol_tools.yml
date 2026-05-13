@@ -1,0 +1,8 @@
+namespace: tools/petrol_tools
+items:
+  abrasive_saw:
+    display_name: Бензорез
+  chainsaw:
+    display_name: Бензопила
+  abrasive_disk:
+    display_name: Отрезной круг для бензореза

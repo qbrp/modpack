@@ -1,0 +1,32 @@
+namespace: decorative/office
+items:
+  scissors:
+    display_name: Канцелярские ножницы
+  pencil:
+    display_name: Карандаш
+  a4stack:
+    display_name: Стопка листов А4
+    writable:
+      pages: 2
+  a5stack:
+    display_name: Стопка листов А5
+    writable:
+      pages: 2
+  paper_a4:
+    display_name: Лист А4
+    writable:
+      pages: 2
+    assets:
+      writable_written: ~/paper_a4
+      writable_empty: ~/paper_a4_empty
+  paper_a5:
+    display_name: Лист А5
+    writable:
+      pages: 2
+    assets:
+      writable_written: ~/paper_a5
+      writable_empty: ~/paper_a5_empty
+  notebook_green:
+    display_name: Зелёный блокнот
+    writable:
+        pages: 30

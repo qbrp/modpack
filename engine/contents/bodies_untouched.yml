@@ -1,0 +1,10 @@
+namespace: bodies/untouched
+items:
+  pstfs_corpse_hanging_down:
+    display_name: Свисающий труп солдата ВС Постфедерации
+  pstfs_corpse_lying:
+    display_name: Лежащий труп солдата ВС Постфедерации
+  pstfs_corpse_lying2:
+    display_name: Лежащий труп солдата ВС Постфедерации вариант 2
+  pstfs_corpse_sitting:
+    display_name: Сидящий труп солдата ВС Постфедерации

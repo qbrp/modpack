@@ -1,0 +1,24 @@
+namespace: decorative/pipes
+items:
+  pipe_corner:
+    display_name: Труба угол
+  pipe_straight:
+    display_name: Труба прямая
+  pipe_straight_turns:
+    display_name: Прямая труба переходящая плоскость
+  pipe_straight_valve:
+    display_name: Прямая труба с вентилем
+  pipe_straight_valve2:
+    display_name: Альтернативная пряма труба с вентилем
+  pipe_tee:
+    display_name: Труба тройник
+  thick_pipe_corner:
+    display_name: Угловая толстая труба
+  thick_pipe_straight:
+    display_name: Толстая труба прямая
+  thick_pipe_straight_turns:
+    display_name: Толстая труба прямая перееходящая плоскость
+  thick_pipe_straight_valve:
+    display_name: Толстая труба прямая с вентилем
+  thick_pipe_tee:
+    display_name: Толстая труба тройник

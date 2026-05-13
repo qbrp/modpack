@@ -1,0 +1,174 @@
+{
+    "format_version": "1.21.6",
+    "credit": "Made with Blockbench",
+    "textures": {
+        "0": "engine:~/eyewear",
+        "particle": "engine:~/eyewear"
+    },
+    "elements": [
+        {
+            "name": "glasses",
+            "from": [
+                3.7,
+                0,
+                3.7
+            ],
+            "to": [
+                12.3,
+                2,
+                12.3
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    4,
+                    0,
+                    4
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        9,
+                        2
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        2,
+                        9,
+                        4
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        4,
+                        9,
+                        6
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                90,
+                22.5,
+                0
+            ],
+            "translation": [
+                0,
+                -3,
+                4.75
+            ],
+            "scale": [
+                0.8,
+                0.8,
+                0.8
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                90,
+                22.5,
+                0
+            ],
+            "translation": [
+                0,
+                -3,
+                4.75
+            ],
+            "scale": [
+                0.8,
+                0.8,
+                0.8
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                120,
+                0
+            ],
+            "translation": [
+                1.25,
+                10,
+                -4.5
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                120,
+                0
+            ],
+            "translation": [
+                1.25,
+                10,
+                -4.5
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                4.75,
+                0
+            ]
+        },
+        "gui": {
+            "rotation": [
+                30,
+                -135,
+                0
+            ],
+            "translation": [
+                -0.5,
+                7.5,
+                0
+            ],
+            "scale": [
+                1.25,
+                1.25,
+                1.25
+            ]
+        },
+        "head": {
+            "translation": [
+                0,
+                9.25,
+                0
+            ],
+            "scale": [
+                1.6,
+                1.6,
+                1.6
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                -79.75,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                5.75,
+                -14.25
+            ],
+            "scale": [
+                2,
+                2,
+                2
+            ]
+        }
+    }
+}

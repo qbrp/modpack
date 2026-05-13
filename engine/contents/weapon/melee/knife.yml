@@ -1,0 +1,6 @@
+namespace: weapon/melee/knife
+items:
+  ak6x4:
+    display_name: Штык-нож Изделие 6Х4
+  m9:
+    display_name: Штык-нож M9

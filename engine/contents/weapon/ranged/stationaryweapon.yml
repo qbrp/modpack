@@ -1,0 +1,6 @@
+namespace: weapon/ranged/stationaryweapon
+items:
+  browning_m2:
+    display_name: Браунинг М2
+  browning_m2_empty:
+    display_name: Пустой браунинг М2

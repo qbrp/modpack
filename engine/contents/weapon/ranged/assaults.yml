@@ -1,0 +1,48 @@
+namespace: weapon/ranged/assaults
+items:
+  arc:
+    display_name: ARC-A1
+  ak74n:
+    display_name: АК74Н
+    tooltip: Автомат Шмайсера, но новее
+    gun:
+      barrel:
+        bullets: 30
+      ammunition:
+        item: ammunition/5.45x39bullet
+        display: Патрон 5.45x39
+      smoke: [0.15, -0.1, 0.5]
+      rate: 2
+    sounds:
+      gunfire: ~/gunfire_akm
+  akm:
+    display_name: АКМ
+    tooltip: Автомат Шмайсера
+    gun:
+      barrel:
+        bullets: 30
+      ammunition:
+        item: ammunition/7.62x39round
+        display: 7.62x39round
+      smoke: [0.15, -0.1, 0.5]
+      rate: 3
+    sounds:
+      gunfire: ~/gunfire_akm
+  ar15:
+    display_name: AR-15
+    tooltip: Автомат Кольтсера
+    gun:
+      barrel:
+        bullets: 30
+      ammunition:
+        item: ammunition/223round
+        display: Патрон 223
+      smoke: [0.15, -0.1, 0.7]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: ~/gunfire_akm
+sounds:
+  gunfire_akm:
+    pitch_random: 0.2
+    plays: [~/gunfire_akm_1]

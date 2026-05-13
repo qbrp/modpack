@@ -1,0 +1,23 @@
+namespace: weapon/ranged
+sounds:
+  selector:
+    plays: [~/selector]
+    distance: 8
+    pitch_random: 0.2
+  round_barrel:
+    plays: [ ~/round_barrel ]
+    distance: 8
+    pitch_random: 0.2
+  click_empty:
+    plays: [ ~/click_empty ]
+    distance: 8
+    pitch_random: 0.2
+  bullet_hit:
+    plays: [ ~/bullet_hit ]
+    distance: 12
+    pitch_random: 0.2
+  trigger:
+    plays: [ ~/trigger ]
+    distance: 7
+    pitch_random: 0.1
+    volume: 0.25

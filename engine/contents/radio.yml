@@ -1,0 +1,8 @@
+namespace: radio
+items:
+  radio_standart:
+    display_name: Рация
+  radio_cheap:
+    display_name: Дешёвая рация
+  radio_military:
+    display_name: Военная рация

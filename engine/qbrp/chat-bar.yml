@@ -1,0 +1,25 @@
+sections:
+  - name: In Character
+    channels:
+      - "default"
+      - "me"
+      - "roll"
+      - "do"
+      - "doo"
+      - "dooo"
+      - "gdo"
+  - name: Out of Character
+    channels:
+      - "lnrp"
+      - "gnrp"
+      - "spectator"
+      - "pm"
+  - name: ГМ
+    channels:
+      - "gm"
+  - name: Админ
+    channels:
+      - "admin"
+  - name: Система
+    channels:
+        - "system"

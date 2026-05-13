@@ -1,0 +1,10 @@
+namespace: bodies/untouched_holes
+items:
+  pstfs_cut_corpse_lying:
+    display_name: Труп солдата ВС Постфедерации с порезом
+  pstfs_cut2_corpse_lying2:
+    display_name: Труп солдата ВС Постфедерации с порезом вариант 2
+  pstfs_holes_corpse_hanging_down:
+    display_name: Труп солдата ВС Постфедерации с пулевыми ранениями
+  pstfs_holes_corpse_sitting:
+    display_name: Сидящий труп солдата ВС Постфедерации с пулевыми ранениями

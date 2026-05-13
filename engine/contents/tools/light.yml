@@ -1,0 +1,22 @@
+namespace: tools/light
+items:
+  dynamo_flashlight_on:
+    display_name: Динамо фонарь
+    material: torch
+  dynamo_flashlight_off:
+    display_name: Динамо фонарь
+  flashlight_on:
+    display_name: Фонарь
+    material: torch
+  flashlight_off:
+    display_name: Фонарь
+  pocket_flashlight_on:
+    display_name: Карманный фонарик
+    material: torch
+  pocket_flashlight_off:
+    display_name: Карманный фонарик
+  projector_flashlight_on:
+    display_name: Фонарь прожектор
+    material: torch
+  projector_flashlight_off:
+    display_name: Фонарь прожектор

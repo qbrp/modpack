@@ -1,0 +1,72 @@
+namespace: weapon/ranged/pistols
+items:
+  g21:
+    display_name: Glock 21
+    tooltip: 9mm(45ACP) Goes Bang
+    gun:
+      barrel:
+        bullets: 13
+      ammunition:
+        item: ammunition/45acpround
+        display: Патрон 45 ACP
+      smoke: [0.15, -0.1, 0.5] # 1 - лево/право 2 - вверх/вниз 3 - ???
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_glock21
+  hardballer:
+    display_name: AMT Hardballer Longslide
+    tooltip: T-800
+    gun:
+      barrel:
+        bullets: 7
+      ammunition:
+        item: ammunition/45acpround
+        display: Патрон 45 ACP
+      smoke: [0.15, -0.1, 0.6]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_hardballer
+  m1911a1:
+    display_name: m1911a1
+    tooltip: Гамп. Проверь нору
+    gun:
+      barrel:
+        bullets: 7
+      ammunition:
+        item: ammunition/45acpround
+        display: Патрон 45 ACP
+      smoke: [0.15, -0.1, 0.5]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_colt
+  m1911a1gold:
+    display_name: m1911a1 Позолоченный
+    tooltip: Гамп. Проверь нору
+    gun:
+      barrel:
+        bullets: 7
+      ammunition:
+        item: ammunition/45acpround
+        display: Патрон 45 ACP
+      smoke: [0.15, -0.1, 0.5]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_colt
+  chipparhino200:
+    display_name: Chiappa Rhino 200DS
+    tooltip: BB gun
+    gun:
+      barrel:
+        bullets: 6
+      ammunition:
+        item: ammunition/9x19bullet
+        display: Патрон 9x19 Parabellum
+      smoke: [0.15, -0.1, 0.5]
+      rate: 10
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapon/ranged/gunfire_200ds

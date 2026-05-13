@@ -1,0 +1,142 @@
+{
+    "credit": "Made with Blockbench",
+    "texture_size": [
+        6,
+        6
+    ],
+    "textures": {
+        "0": "engine:~/spring",
+        "particle": "engine:~/spring"
+    },
+    "elements": [
+        {
+            "from": [
+                7,
+                0,
+                7
+            ],
+            "to": [
+                8,
+                4,
+                8
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        2.66667,
+                        10.66667
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        2.66667,
+                        0,
+                        5.33333,
+                        10.66667
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        5.33333,
+                        0,
+                        8,
+                        10.66667
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        8,
+                        0,
+                        10.66667,
+                        10.66667
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        2.66667,
+                        13.33333,
+                        0,
+                        10.66667
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        13.33333,
+                        0,
+                        10.66667,
+                        2.66667
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [
+                -1,
+                4,
+                0
+            ]
+        },
+        "thirdperson_lefthand": {
+            "translation": [
+                -2,
+                4,
+                0
+            ]
+        },
+        "firstperson_righthand": {
+            "translation": [
+                2.5,
+                7.75,
+                -1
+            ]
+        },
+        "firstperson_lefthand": {
+            "translation": [
+                2.5,
+                7.75,
+                -1
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                4.25,
+                0
+            ]
+        },
+        "gui": {
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                -1.25,
+                10.25,
+                0
+            ],
+            "scale": [
+                2,
+                2,
+                2
+            ]
+        },
+        "fixed": {
+            "translation": [
+                0,
+                6,
+                0
+            ]
+        }
+    }
+}

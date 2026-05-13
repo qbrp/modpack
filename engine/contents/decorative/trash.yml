@@ -1,0 +1,48 @@
+namespace: decorative/trash
+items:
+  1log:
+    display_name: Бревно
+  2log:
+    display_name: Два бревна
+  3log:
+    display_name: Набор из 3 бревён
+  4log:
+    display_name: Набор из 4 бревён
+  5log:
+    display_name: Набор из 5 бревён
+  6log:
+    display_name: Загатовка из 6 бревён
+  7log:
+    display_name: Загатовка из 7 бревён
+  8log:
+    display_name: Загатовка из 8 бревён
+  branch:
+    display_name: Ветка
+  brick:
+    display_name: Кирпич
+  broken_door:
+    display_name: Выбитая дверь
+  plank_best:
+    display_name: Доска лучшего качества
+  plank_regular:
+    display_name: Доска
+  plank_worst:
+    display_name: Доска гнилая
+  reinforcement1_out:
+    display_name: Обнажённая арматура 1
+  reinforcement2_out:
+    display_name: Обнажённая арматура 2
+  stone_brick:
+    display_name: Каменный кирпич
+  rock_scrap_1:
+    display_name: Каменный лом 1
+  rock_scrap_2:
+    display_name: Каменный лом 2
+  rock_scrap_3:
+    display_name: Каменный лом 3
+  rock_scrap_4:
+    display_name: Каменный лом 4
+  rock_scrap_5:
+    display_name: Каменный лом 5
+  rock_scrap_full:
+    display_name: Каменный лом

@@ -1,0 +1,11 @@
+namespace: decorative
+items:
+  sign_radioactive:
+    display_name: Табличка "Радиоактивность"
+    model: ~/sign/sign
+  tent:
+    model: ~/tent/tent
+    display_name: Палатка
+  tent_collapsed:
+    display_name: Сложенная палатка
+    model: ~/tent/collapsed/tent_collapsed

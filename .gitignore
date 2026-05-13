@@ -1,0 +1,6 @@
+*.py
+.deleted
+.git
+.idea
+files.txt
+archives

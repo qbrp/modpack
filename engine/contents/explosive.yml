@@ -1,0 +1,16 @@
+namespace: explosive
+items:
+  c4raw:
+    display_name: Сырая взрывчатка C4
+  c4ready:
+    display_name: Самодельное взрывное устройство C4
+  dragontooth:
+    display_name: Мина "Зуб дракона"
+  claymore:
+    display_name: Противопехотная мина "Клеймор"
+  antipersonalmine:
+    display_name: Противопехотная мина
+  antitankmine:
+    display_name: Противотанковая мина
+  detonator:
+    display_name: Детонатор

@@ -1,0 +1,12 @@
+namespace: tools/axe
+items:
+  axe_basic:
+    display_name: Топор
+  splitting_axe:
+    display_name: Топор колун
+  fire_axe:
+    display_name: Штурмовой пожарный топор
+  fullmetal_axe:
+    display_name: Цельнометаллический топор
+  tomahawk:
+    display_name: Штурмовой томагавк

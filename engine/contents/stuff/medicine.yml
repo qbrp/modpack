@@ -1,0 +1,12 @@
+namespace: medicine
+items:
+  army_bandage:
+    display_name: Армейский бинт
+  bandage:
+    display_name: Бинт
+  cat_tourniquet:
+    display_name: Турникет для боевого применения
+  esmarch_tourniquet:
+    display_name: Жгут Эсмарха
+  pills:
+    display_name: Банка таблеток

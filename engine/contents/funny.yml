@@ -1,0 +1,13 @@
+namespace: funny
+items:
+  dakimakura_arestovich:
+    display_name: Дакимакура Арестович
+    model: ~/dakimakura/arestovich
+  dakimakura_dora:
+    display_name: Дакимакура Дора
+    model: ~/dakimakura/dora
+  shariy:
+    display_name: Дакимакура Шарий
+    model: ~/dakimakura/shariy
+  guitar:
+    display_name: Акустическая гитара

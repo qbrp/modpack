@@ -1,0 +1,8 @@
+namespace: weapon/ranged/grenadelauncher
+items:
+  rpg_18_empty:
+    display_name: РПГ-18 Использованный
+  rpg_18_idle:
+    display_name: РПГ-18
+  rpg_18_ready:
+    display_name: РПГ-18

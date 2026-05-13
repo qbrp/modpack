@@ -1,0 +1,63 @@
+namespace: clothing
+items:
+  beret_bl:
+    display_name: Чёрный берет
+    hat: true
+  beret_rd:
+    display_name: Красный берет
+    hat: true
+  cap_m:
+    display_name: Военная бейсболка
+    hat: true
+  cap_s:
+    display_name: Бейсболка
+    hat: true
+  plastic_faceshield:
+    display_name: Защитный экран для лица
+    outfit:
+      slot: MASK
+      separated: true
+      parts: [ HEAD ]
+  aviator_eyewear:
+    display_name: Очки авиаторы
+    outfit:
+      slot: MASK
+      separated: true
+      parts: [HEAD]
+      eyes: true
+  ballistic_eyewear:
+    display_name: Баллистические очки
+    outfit:
+      slot: MASK
+      separated: true
+      parts: [ HEAD ]
+      eyes: true
+  vision_eyewear:
+    display_name: Очки для зрения
+    outfit:
+      slot: MASK
+      separated: true
+      parts: [ HEAD ]
+      eyes: true
+  nvg:
+    display_name: Прибор ночного виденья
+    hat: true
+  cws_bulletproof:
+    display_name: Бронежилет CWS
+    outfit:
+      slot: WEST
+      separated: true
+      parts: [BODY]
+progression_animations:
+  equip:
+    frames:
+      name: progression/equip
+      count: 9
+    text: "Экипирование"
+    success: "Экипировано"
+  take_off:
+    frames:
+      name: progression/equip
+      count: 9
+    text: "Снимается {lowercased_outfit_name}"
+    success: "Экипировка снята"

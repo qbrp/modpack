@@ -1,0 +1,6 @@
+namespace: weapon/melee/machete
+items:
+ machete_m:
+    display_name: Военное мачете
+ machete_s:
+    display_name: Мачете

@@ -1,0 +1,26 @@
+default:
+  model: "~/{id}"
+  stackable: false
+  sounds:
+    click: common/sounds/click
+  progression_animations:
+    equip: clothing/equip
+    take_off: clothing/take_off
+weapon/ranged:
+  sounds:
+    selector: weapon/ranged/selector
+    round_barrel: weapon/ranged/round_barrel
+    bullet_hit: weapon/ranged/bullet_hit
+    gun_trigger: weapon/ranged/trigger
+weapon/ranged/assaults:
+  inherit: weapon/ranged
+weapon/ranged/lmg:
+  inherit: weapon/ranged
+weapon/ranged/submachinegun:
+  inherit: weapon/ranged
+weapon/ranged/pistols:
+  inherit: weapon/ranged
+weapon/ranged/sniper:
+  inherit: weapon/ranged
+ammunition:
+    stack_size: 48

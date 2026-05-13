@@ -1,0 +1,32 @@
+namespace: decorative/electronics
+items:
+  switch:
+    display_name: Выключатель
+  cable:
+    display_name: Кабель
+  fusebox:
+    display_name: Электрощит
+  socket:
+    display_name: Розетка
+  long_ceiling_light_off:
+    display_name: Выключенная галогеновая лампа
+  long_ceiling_light_on:
+    display_name: Включенная галогеновая лампа
+  generator:
+    display_name: Портативный бензогенератор
+  ufbase_on:
+    display_name: УФ лампа
+  uf_on:
+    display_name: УФ лампа
+  ufbase_off:
+    display_name: УФ лампа
+  uf_off:
+    display_name: УФ лампа
+  keyreader:
+    display_name: Считыватель магнитных карт
+  cctv_camera:
+    display_name: Камера видеонаблюдения
+  speaker:
+    display_name: Громкоговоритель
+  speaker_micro:
+    display_name: Микрофон громкоговорителя

@@ -1,0 +1,8 @@
+namespace: tools/garden
+items:
+  rake:
+    display_name: Садовые грабли
+  shovel:
+    display_name: Штыковая лопата
+  smalshovel:
+    display_name: Садовый совок

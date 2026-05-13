@@ -1,0 +1,4 @@
+namespace: tools/utility
+items:
+  cd:
+    display_name: CD Диск

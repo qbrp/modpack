@@ -1,0 +1,604 @@
+{
+    "credit": "Made with Blockbench",
+    "texture_size": [
+        8,
+        8
+    ],
+    "textures": {
+        "1": "engine:~/duct_tape_low_grade"
+    },
+    "elements": [
+        {
+            "name": "tape",
+            "from": [
+                7.5,
+                1.37868,
+                6.5
+            ],
+            "to": [
+                8.5,
+                2.62132,
+                7.5
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "x",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        4
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.501,
+                1.37868,
+                6.5
+            ],
+            "to": [
+                8.499,
+                2.62132,
+                7.5
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        2,
+                        2,
+                        4,
+                        4
+                    ],
+                    "texture": "#1"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        4,
+                        2,
+                        6
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        4,
+                        0,
+                        6,
+                        2
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.5,
+                1.37868,
+                8.5
+            ],
+            "to": [
+                8.5,
+                2.62132,
+                9.5
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "x",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        2,
+                        4,
+                        4,
+                        6
+                    ],
+                    "texture": "#1"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        4,
+                        2,
+                        6,
+                        4
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        4,
+                        4,
+                        6,
+                        6
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.501,
+                1.37868,
+                8.5
+            ],
+            "to": [
+                8.499,
+                2.62132,
+                9.5
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        6,
+                        2,
+                        8
+                    ],
+                    "texture": "#1"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        0,
+                        8,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        6,
+                        4,
+                        8
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.5,
+                0.5,
+                7.37868
+            ],
+            "to": [
+                8.5,
+                1.5,
+                8.62132
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "x",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        6,
+                        2,
+                        8,
+                        4
+                    ],
+                    "texture": "#1"
+                },
+                "up": {
+                    "uv": [
+                        6,
+                        8,
+                        4,
+                        6
+                    ],
+                    "texture": "#1"
+                },
+                "down": {
+                    "uv": [
+                        8,
+                        4,
+                        6,
+                        6
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.501,
+                0.5,
+                7.37868
+            ],
+            "to": [
+                8.499,
+                1.5,
+                8.62132
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        6,
+                        6,
+                        8,
+                        8
+                    ],
+                    "texture": "#1"
+                },
+                "up": {
+                    "uv": [
+                        2,
+                        10,
+                        0,
+                        8
+                    ],
+                    "texture": "#1"
+                },
+                "down": {
+                    "uv": [
+                        10,
+                        0,
+                        8,
+                        2
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.5,
+                2.5,
+                7.37868
+            ],
+            "to": [
+                8.5,
+                3.5,
+                8.62132
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "x",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        8,
+                        4,
+                        10
+                    ],
+                    "texture": "#1"
+                },
+                "up": {
+                    "uv": [
+                        10,
+                        4,
+                        8,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "down": {
+                    "uv": [
+                        6,
+                        8,
+                        4,
+                        10
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "name": "tape",
+            "from": [
+                7.501,
+                2.5,
+                7.37868
+            ],
+            "to": [
+                8.499,
+                3.5,
+                8.62132
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    2,
+                    8
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "texture": "#1"
+                },
+                "west": {
+                    "uv": [
+                        8,
+                        4,
+                        10,
+                        6
+                    ],
+                    "texture": "#1"
+                },
+                "up": {
+                    "uv": [
+                        8,
+                        10,
+                        6,
+                        8
+                    ],
+                    "texture": "#1"
+                },
+                "down": {
+                    "uv": [
+                        10,
+                        6,
+                        8,
+                        8
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "from": [
+                7.5,
+                0.5,
+                6.5
+            ],
+            "to": [
+                8.5,
+                0.5,
+                7.375
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    7,
+                    0.5,
+                    5.375
+                ]
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        10,
+                        8,
+                        8
+                    ],
+                    "texture": "#1"
+                },
+                "down": {
+                    "uv": [
+                        10,
+                        10,
+                        8,
+                        8
+                    ],
+                    "texture": "#1"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [
+                0,
+                5.5,
+                0
+            ]
+        },
+        "thirdperson_lefthand": {
+            "translation": [
+                0,
+                5.5,
+                0
+            ]
+        },
+        "firstperson_righthand": {
+            "translation": [
+                -1.25,
+                9.5,
+                2.25
+            ]
+        },
+        "firstperson_lefthand": {
+            "translation": [
+                -1.25,
+                9.5,
+                2.25
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                4.75,
+                0
+            ]
+        },
+        "gui": {
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                0.25,
+                15.75,
+                0
+            ],
+            "scale": [
+                3,
+                3,
+                3
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                90,
+                0
+            ],
+            "translation": [
+                0,
+                12,
+                -1
+            ],
+            "scale": [
+                2,
+                2,
+                2
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+namespace: food
+items:
+  tincan_key:
+    display_name: Консервная банка с ключом
+  tincan_nokey:
+    display_name: Консервная банка
+  spam:
+    display_name: Гыча
+  red_tincan:
+    display_name: Консервированное мясо
+  fish_tincan:
+    display_name: Консервированная рыба

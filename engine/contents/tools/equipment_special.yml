@@ -1,0 +1,6 @@
+namespace: tools/equipment_special
+items:
+  meters:
+    display_name: Стандартный измеритель
+  meterp:
+    display_name: Проффесианальный измеритель
