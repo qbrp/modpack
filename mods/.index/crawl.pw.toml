@@ -1,0 +1,21 @@
+filename = 'crawl-mc1.21.11-fabric-0.15.0.jar'
+name = 'Crawl'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.15.0'
+
+[download]
+hash = 'd50115180e488fc74b349fec432ed12f273acee4e56ccf9d8a49df434af333338919dceae08e58f47dcfd3c27292c7fc6733a2de75ee0d4af6d1a494b164c912'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H1JOVjhn/versions/Ias4IRqo/crawl-mc1.21.11-fabric-0.15.0.jar'
+
+[update.modrinth]
+mod-id = 'H1JOVjhn'
+version = 'Ias4IRqo'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

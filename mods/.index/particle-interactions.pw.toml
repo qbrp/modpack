@@ -1,0 +1,32 @@
+filename = 'eg_particle_interactions-v0.9.1-fabric-mc1.21.11.jar'
+name = 'Particle Interactions'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.9.1'
+
+[download]
+hash = 'f2c92a2f69f10de98b86ad3c8e086fe816a125793e6a0497699c1fefcaf91c1e164325182d0df370bde76a402157ad6c983a65ec5c86aaa33518447281177b00'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xFCYuAs8/versions/upV2WiyX/eg_particle_interactions-v0.9.1-fabric-mc1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'xFCYuAs8'
+version = 'upV2WiyX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'gB6TkYEJ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+version = 'hGuj7hNc'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+version = 'NWFsMIGn'

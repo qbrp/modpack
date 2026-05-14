@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "담배",
+  "papaotchima.puffpack.settings.title": "PuffPack 설정",
+  "papaotchima.puffpack.settings.nausea_effect": "흡연 시 메스꺼움 효과",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "흡연 시 메스꺼움 효과 활성화",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "흡연 시 메스꺼움 효과 비활성화",
+  "papaotchima.puffpack.settings.infinity_cigarette": "무한 담배",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "담배가 사용 중에 부서지지 않습니다",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "담배가 사용 중에 부서집니다",
+  "papaotchima.puffpack.settings.config.true": "활성화  ",
+  "papaotchima.puffpack.settings.config.false": "비활성화",
+  "papaotchima.puffpack.settings.back": "설정으로 돌아가기"
+}

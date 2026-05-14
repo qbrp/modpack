@@ -1,0 +1,21 @@
+filename = 'valhelsia_furniture-fabric-1.21.10-1.1.0.jar'
+name = 'Valhelsia Furniture'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '6b4228b36dd739bfbe10d709144462cd4f31d7fa4297230c626649bf5b6933467754e9cf4f04459d09389163d0604cf770b9b1bf310fd3b500ba08df5f99c52e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qmCh2PxS/versions/TiFdSXZ6/valhelsia_furniture-fabric-1.21.10-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'qmCh2PxS'
+version = 'TiFdSXZ6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HsdNFinx'
+type = 'REQUIRED'

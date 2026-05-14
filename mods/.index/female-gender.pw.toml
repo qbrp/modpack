@@ -1,0 +1,18 @@
+filename = 'Female-Gender-Mod-fabric-5.0.0-Beta.3+1.21.11.jar'
+name = 'Female Gender Mod'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '5.0.0-Beta.3+1.21.11'
+
+[download]
+hash = '6b2239609f32663bfe253c0a7b3922fc4eda1e6a2b5305d37bcf1475bf914c5045de44b2de0dfabcdf554a8520b0532662ec8772ae6cd8c5a43c40bf752ddb69'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bcOsQHnC/versions/W7WJBV1r/Female-Gender-Mod-fabric-5.0.0-Beta.3%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'bcOsQHnC'
+version = 'W7WJBV1r'

@@ -1,0 +1,25 @@
+filename = 'CameraOverhaul-v2.0.6-fabric+mc[1.21.11-plus].jar'
+name = 'CameraOverhaul'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.6-fabric+mc.1.21.11-plus'
+
+[download]
+hash = '3c4189830cf7d2e7d96781ca6442e242e2d715c21baab5f63fa5cbec0853e63adf644be3f8aa375c709cedb67a702bc807e42d31d53223704d96a7275c9229d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/m0oRwcZx/versions/Pq5dOFBk/CameraOverhaul-v2.0.6-fabric%2Bmc%5B1.21.11-plus%5D.jar'
+
+[update.modrinth]
+mod-id = 'm0oRwcZx'
+version = 'Pq5dOFBk'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Cigareta",
+  "papaotchima.puffpack.settings.title": "Nastavení PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Efekt nevolnosti při kouření",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Zapnout efekt nevolnosti při kouření",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Vypnout efekt nevolnosti při kouření",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Nekonečné cigarety",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Cigarety se nebudou opotřebovávat",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Cigarety se budou opotřebovávat",
+  "papaotchima.puffpack.settings.config.true": "Zapnuto  ",
+  "papaotchima.puffpack.settings.config.false": "Vypnuto",
+  "papaotchima.puffpack.settings.back": "Zpět do nastavení"
+}

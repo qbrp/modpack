@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Zigarette",
+  "papaotchima.puffpack.settings.title": "PuffPack Einstellungen",
+  "papaotchima.puffpack.settings.nausea_effect": "Übelkeitseffekt beim Rauchen",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Übelkeitseffekt beim Rauchen aktivieren",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Übelkeitseffekt beim Rauchen deaktivieren",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Unendliche Zigaretten",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Zigaretten zerbrechen nicht bei Benutzung",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Zigaretten zerbrechen bei Benutzung",
+  "papaotchima.puffpack.settings.config.true": "Aktiviert  ",
+  "papaotchima.puffpack.settings.config.false": "Deaktiviert",
+  "papaotchima.puffpack.settings.back": "Zurück zu den Einstellungen"
+}

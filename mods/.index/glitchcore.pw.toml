@@ -1,0 +1,18 @@
+filename = 'GlitchCore-fabric-1.21.11-21.11.0.4.jar'
+name = 'GlitchCore'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.11.0.4'
+
+[download]
+hash = 'b0ea73e94647e5038a0a21f23357226a8767379e93a81c16bbfd8f87dead3ddeb768fc13bd557e94bb8f5e9b5c7e494fdc4f05d504227ba70af0ea4e6dd51187'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s3dmwKy5/versions/CO7NeLTt/GlitchCore-fabric-1.21.11-21.11.0.4.jar'
+
+[update.modrinth]
+mod-id = 's3dmwKy5'
+version = 'CO7NeLTt'

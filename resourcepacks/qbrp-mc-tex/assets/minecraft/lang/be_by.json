@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Сігарына",
+  "papaotchima.puffpack.settings.title": "Налады PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Эфект ванітаў пры курэнні",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Уключыць эфект ванітаў пры курэнні",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Выключыць эфект ванітаў пры курэнні",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Бясконцыя сігарыны",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Сігарыны не будуць ламацца пры выкарыстанні",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Сігарыны будуць ламацца пры выкарыстанні",
+  "papaotchima.puffpack.settings.config.true": "Уключана  ",
+  "papaotchima.puffpack.settings.config.false": "Выключана",
+  "papaotchima.puffpack.settings.back": "Вярнуцца ў налады"
+}

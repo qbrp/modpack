@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Сигарета",
+  "papaotchima.puffpack.settings.title": "Настройки PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Эффект тошноты при курении",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Включить эффект тошноты при курении",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Выключить эффект тошноты при курении",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Бесконечные сигареты",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Сигареты не будут ломаться при использовании",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Сигареты будут ломаться при использовании",
+  "papaotchima.puffpack.settings.config.true": "Включено  ",
+  "papaotchima.puffpack.settings.config.false": "Выключено",
+  "papaotchima.puffpack.settings.back": "Вернуться в настройки"
+}

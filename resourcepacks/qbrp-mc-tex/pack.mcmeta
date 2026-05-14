@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats":[0,99],
+    "description": {
+      "text": "Ретекстур ванильных блоков",
+      "color": "#86dafe"
+    }
+  }
+}

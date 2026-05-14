@@ -1,0 +1,31 @@
+filename = 'cryonicconfig-fabric-1.0.0+mc1.21.11.jar'
+name = 'Cryonic Config'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.21.11-1.0.0'
+
+[download]
+hash = '4fca90f95b6a642e40fb3c1822005d0b3bd9e53acb4f1b83e2e244732d62028ad2c1ede9e06c0c9488850f3504eeeb6a082c2b096b40dc6e1ed1db178a6d93b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oEhQIkOs/versions/biJLv3Vb/cryonicconfig-fabric-1.0.0%2Bmc1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'oEhQIkOs'
+version = 'biJLv3Vb'

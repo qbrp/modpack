@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats":[0,99],
+    "description": {
+      "text": "Реалистичные звуки",
+      "color": "#86dafe"
+    }
+  }
+}

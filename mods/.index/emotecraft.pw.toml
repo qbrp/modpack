@@ -1,0 +1,37 @@
+filename = 'emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.149.jar'
+name = 'Emotecraft'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '3.2.0-b.build.149+1.21.11-fabric'
+
+[download]
+hash = '5d871f122964566138735695aa768d606a64ce68fb7276b6dfc06c2653720ade426230c94b6a7f9f3b1f2cd4596bbe4020393c16934c2490d7dacd7e4e54200b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pZ2wrerK/versions/Lwm0wDGH/emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.149.jar'
+
+[update.modrinth]
+mod-id = 'pZ2wrerK'
+version = 'Lwm0wDGH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fuuu3xnx'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OI3FlFon'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lzVo0Dll'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ha1mEyJS'
+type = 'REQUIRED'
