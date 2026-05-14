@@ -1,0 +1,18 @@
+filename = 'polymer-bundled-0.15.2+1.21.11.jar'
+name = 'Polymer'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.15.2+1.21.11'
+
+[download]
+hash = '9c205ab398c324ee4dc376269d8aa5df64d11766b6418952a64d2df94f096e665f63eae0c4f0c66e22d03c6ff6767550d1777c28485340131e6556091199062a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xGdtZczs/versions/wugBT1fU/polymer-bundled-0.15.2%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'xGdtZczs'
+version = 'wugBT1fU'

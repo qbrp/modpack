@@ -1,0 +1,21 @@
+filename = 'yamlconfig-19.1.0-fabric.jar'
+name = 'YAML Config'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '19.1.0'
+
+[download]
+hash = '0ac33538d1a5da5a999141562a24cd7b60d1c760c825331bdcdf557165580b4602df479fd534a16613e7927e26bb099b9b093560aaf86662b92176d3a316b3c1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/L1FFB418/versions/4zI4GOdy/yamlconfig-19.1.0-fabric.jar'
+
+[update.modrinth]
+mod-id = 'L1FFB418'
+version = '4zI4GOdy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AOEDs9Al'
+type = 'REQUIRED'

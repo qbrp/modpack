@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Сигарета",
+  "papaotchima.puffpack.settings.title": "Налаштування PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Ефект нудоти під час куріння",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Увімкнути ефект нудоти під час куріння",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Вимкнути ефект нудоти під час куріння",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Нескінченні сигарети",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Сигарети не ламатимуться під час використання",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Сигарети ламатимуться під час використання",
+  "papaotchima.puffpack.settings.config.true": "Увімкнено  ",
+  "papaotchima.puffpack.settings.config.false": "Вимкнено",
+  "papaotchima.puffpack.settings.back": "Повернутися до налаштувань"
+}

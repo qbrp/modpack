@@ -1,0 +1,26 @@
+filename = 'refurbished_furniture-fabric-1.21.11-1.0.23.jar'
+name = "MrCrayfish's Furniture Mod: Refurbished"
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '''
+MrCrayfish's Furniture Mod: Refurbished 1.0.23'''
+
+[download]
+hash = '439ef47864a0f8c5b625ffa697cec911ff0fda09'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7579266
+project-id = 897116
+
+[[x-prismlauncher-dependencies]]
+addonId = '459701'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '549225'
+type = 'REQUIRED'

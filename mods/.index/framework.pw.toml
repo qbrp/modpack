@@ -1,0 +1,25 @@
+filename = 'framework-fabric-1.21.11-0.13.11.jar'
+name = 'Framework'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Framework 0.13.11'
+
+[download]
+hash = '5daa599fb6510ffb3d4d4b5e2569413dcff68ceb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7530353
+project-id = 549225
+
+[[x-prismlauncher-dependencies]]
+addonId = '459701'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '457570'
+type = 'OPTIONAL'

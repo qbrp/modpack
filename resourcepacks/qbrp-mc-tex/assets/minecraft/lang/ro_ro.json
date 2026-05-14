@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Țigară",
+  "papaotchima.puffpack.settings.title": "Setări PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Efect de greață la fumat",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Activează efectul de greață la fumat",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Dezactivează efectul de greață la fumat",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Țigări infinite",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Țigările nu se vor sparge la utilizare",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Țigările se vor sparge la utilizare",
+  "papaotchima.puffpack.settings.config.true": "Activat   ",
+  "papaotchima.puffpack.settings.config.false": "Dezactivat",
+  "papaotchima.puffpack.settings.back": "Înapoi la setări"
+}

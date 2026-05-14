@@ -1,0 +1,18 @@
+filename = 'Scribble-2.0.0-beta2+mc1.21.11-fabric.jar'
+name = 'Scribble'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.0-beta2+mc1.21.11-fabric'
+
+[download]
+hash = '899093443501f77f3f7e355391f1de46492c9d44ac5c5a887fa22fc10ec56ee149c344bd958c9aa3af070b170fe1b5b6073ffae71d77fdd718279ca7de30f295'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yXAvIk0x/versions/AGehryPO/Scribble-2.0.0-beta2%2Bmc1.21.11-fabric.jar'
+
+[update.modrinth]
+mod-id = 'yXAvIk0x'
+version = 'AGehryPO'

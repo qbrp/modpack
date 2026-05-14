@@ -1,0 +1,25 @@
+filename = 'xaerominimap-fabric-1.21.11-25.3.12.jar'
+name = "Xaero's Minimap"
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.21.11-25.3.12'
+
+[download]
+hash = '5072fe7d02471956d227b834ee1fa5b1a752f7546cf880c99e32790f09b3b13143c5c16c99b3ba39e0de8a8e6d46f37f1bb3a88ff0fa41207ccce5deae45681b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1bokaNcj/versions/q5DQinHS/xaerominimap-fabric-1.21.11-25.3.12.jar'
+
+[update.modrinth]
+mod-id = '1bokaNcj'
+version = 'q5DQinHS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gF3BGWvG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

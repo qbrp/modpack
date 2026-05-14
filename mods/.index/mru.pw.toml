@@ -1,0 +1,18 @@
+filename = 'mru-1.0.26+edge+1.21.11-fabric.jar'
+name = 'M.R.U'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.26+edge+1.21.11-fabric'
+
+[download]
+hash = '5da1641bc57d1e04e858fcfa7fe9fe69163e4216f94d5f28430371c98aba1958dc8994243dac816af083033e203df1b51a1a55cea8bf50eadc7dac47136e9ccf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SNVQ2c0g/versions/XXzIJdq5/mru-1.0.26%2Bedge%2B1.21.11-fabric.jar'
+
+[update.modrinth]
+mod-id = 'SNVQ2c0g'
+version = 'XXzIJdq5'

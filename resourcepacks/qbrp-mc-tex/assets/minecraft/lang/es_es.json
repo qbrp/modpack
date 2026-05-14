@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Cigarrillo",
+  "papaotchima.puffpack.settings.title": "Configuración de PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Efecto de náusea al fumar",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Activar efecto de náusea al fumar",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Desactivar efecto de náusea al fumar",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Cigarrillos infinitos",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Los cigarrillos no se romperán al usarse",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Los cigarrillos se romperán al usarse",
+  "papaotchima.puffpack.settings.config.true": "Activado  ",
+  "papaotchima.puffpack.settings.config.false": "Desactivado",
+  "papaotchima.puffpack.settings.back": "Volver a configuración"
+}

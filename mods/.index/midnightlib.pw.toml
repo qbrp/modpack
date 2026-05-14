@@ -1,0 +1,21 @@
+filename = 'midnightlib-fabric-1.9.3+1.21.11.jar'
+name = 'MidnightLib'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.9.3+1.21.11-fabric'
+
+[download]
+hash = '07155319e25dbcf17cf0253382a7dc8882edea650cab770328fbad91bf55f21ce043fd6e2a6a1680e765b14b89173f960a880511c78942ad3bb2f0200ddd6969'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/codAaoxh/versions/jkodor79/midnightlib-fabric-1.9.3%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'codAaoxh'
+version = 'jkodor79'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "タバコ",
+  "papaotchima.puffpack.settings.title": "PuffPack設定",
+  "papaotchima.puffpack.settings.nausea_effect": "喫煙時の吐き気効果",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "喫煙時に吐き気効果を有効にする",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "喫煙時に吐き気効果を無効にする",
+  "papaotchima.puffpack.settings.infinity_cigarette": "無限タバコ",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "タバコは使用しても壊れません",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "タバコは使用すると壊れます",
+  "papaotchima.puffpack.settings.config.true": "有効  ",
+  "papaotchima.puffpack.settings.config.false": "無効",
+  "papaotchima.puffpack.settings.back": "設定に戻る"
+}

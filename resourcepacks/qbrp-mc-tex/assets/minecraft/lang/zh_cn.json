@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "香烟",
+  "papaotchima.puffpack.settings.title": "PuffPack 设置",
+  "papaotchima.puffpack.settings.nausea_effect": "吸烟时的恶心效果",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "启用吸烟时的恶心效果",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "禁用吸烟时的恶心效果",
+  "papaotchima.puffpack.settings.infinity_cigarette": "无限香烟",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "香烟使用时不会损坏",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "香烟使用时会损坏",
+  "papaotchima.puffpack.settings.config.true": "已启用  ",
+  "papaotchima.puffpack.settings.config.false": "已禁用",
+  "papaotchima.puffpack.settings.back": "返回设置"
+}

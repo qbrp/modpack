@@ -1,0 +1,25 @@
+filename = 'factory_blocks-fabric-1.4.2+mc1.21.11.jar'
+name = 'Factory Blocks Mod'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.21.11-1.4.2'
+
+[download]
+hash = '783ba9f9bf9aa6efbece03625ce55079464a335b0988013314406d5827a41948805b8e186a568ed7d180071abbd29ae7f5ec67a49c9cbd75a9643ec782b0698c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ht0eTMEs/versions/x2yw2lCw/factory_blocks-fabric-1.4.2%2Bmc1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'ht0eTMEs'
+version = 'x2yw2lCw'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4KWv7wbN'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

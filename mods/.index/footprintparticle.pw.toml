@@ -1,0 +1,29 @@
+filename = 'footprintparticle-0.5.4-mc1.21.11.jar'
+name = 'Footprint Particle'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.5.4-mc1.21.11'
+
+[download]
+hash = '938ac27123273955f501377207cbf84de0b912743688e9d4c55e9e61f18dbd130bd360ef9100562132bdecb7d8fd82b06ad81a651598b30480fd97449f3b8ac5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xZQOoOaY/versions/ZN4waCov/footprintparticle-0.5.4-mc1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'xZQOoOaY'
+version = 'ZN4waCov'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'

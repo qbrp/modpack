@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Papieros",
+  "papaotchima.puffpack.settings.title": "Ustawienia PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Efekt nudności podczas palenia",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Włącz efekt nudności podczas palenia",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Wyłącz efekt nudności podczas palenia",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Nieskończone papierosy",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Papierosy nie złamią się podczas użycia",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Papierosy złamią się podczas użycia",
+  "papaotchima.puffpack.settings.config.true": "Włączone  ",
+  "papaotchima.puffpack.settings.config.false": "Wyłączone",
+  "papaotchima.puffpack.settings.back": "Powrót do ustawień"
+}

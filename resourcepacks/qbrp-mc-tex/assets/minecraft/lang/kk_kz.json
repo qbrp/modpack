@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Сигарета",
+  "papaotchima.puffpack.settings.title": "PuffPack баптаулары",
+  "papaotchima.puffpack.settings.nausea_effect": "Шылым шегу кезінде жүрек айнуы әсері",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Шылым шегу кезінде жүрек айнуы әсерін қосу",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Шылым шегу кезінде жүрек айнуы әсерін өшіру",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Шексіз сигареталар",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Сигареталар қолданған кезде сынбайды",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Сигареталар қолданған кезде сынуы мүмкін",
+  "papaotchima.puffpack.settings.config.true": "Қосылған  ",
+  "papaotchima.puffpack.settings.config.false": "Өшірілген",
+  "papaotchima.puffpack.settings.back": "Баптауларға оралу"
+}

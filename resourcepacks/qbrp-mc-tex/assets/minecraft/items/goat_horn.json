@@ -1,0 +1,1 @@
+ { "model": { "type": "select", "property": "custom_model_data", "fallback": { "type": "model", "model": "minecraft:item/goat_horn" }, "cases": [ { "when": "papaotchima/cigarette_0", "model": { "type": "model", "model": "item/cigarette_0" } } ] } }

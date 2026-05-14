@@ -1,0 +1,13 @@
+{
+  "papaotchima.puffpack.item.cigarette.name": "Цигара",
+  "papaotchima.puffpack.settings.title": "Поставки на PuffPack",
+  "papaotchima.puffpack.settings.nausea_effect": "Ефект на гадење при пушење",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.true": "Вклучи ефект на гадење при пушење",
+  "papaotchima.puffpack.settings.nausea_effect.hover_event.false": "Исклучи ефект на гадење при пушење",
+  "papaotchima.puffpack.settings.infinity_cigarette": "Бесконечни цигари",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.true": "Цигарите нема да се скршат при употреба",
+  "papaotchima.puffpack.settings.infinity_cigarette.hover_event.false": "Цигарите ќе се скршат при употреба",
+  "papaotchima.puffpack.settings.config.true": "Вклучено ",
+  "papaotchima.puffpack.settings.config.false": "Исклучено ",
+  "papaotchima.puffpack.settings.back": "Врати се на поставки"
+}
