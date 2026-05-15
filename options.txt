@@ -9,7 +9,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.025
+fov:0.5
 fovEffectScale:0.22428895556437212
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -17,8 +17,8 @@ glintStrength:0.75
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
 fullscreen:false
-gamma:0.78
-guiScale:5
+gamma:0.0
+guiScale:8
 maxAnisotropyBit:2
 textureFiltering:0
 maxFps:100
@@ -30,8 +30,8 @@ particles:0
 reducedDebugInfo:true
 renderClouds:"true"
 cloudRange:128
-renderDistance:13
-simulationDistance:17
+renderDistance:8
+simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
@@ -191,7 +191,7 @@ key_key.wildfire_gender.gender_menu:key.keyboard.h
 key_key.wildfire_gender.toggle:key.keyboard.unknown
 key_key.autohud.toggle-hud:key.keyboard.h
 key_key.autohud.peek-hud:key.keyboard.r
-key_key.crawl:key.keyboard.unknown
+key_key.crawl:key.keyboard.z
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_Увеличить громкость сообщения:key.keyboard.2
@@ -199,28 +199,28 @@ key_Уменьшить громкость сообщения:key.keyboard.3
 key_Сбросить громкость сообщения:key.keyboard.0
 key_Взаимодействие:key.mouse.right
 key_Атаковать:key.mouse.left
-key_Снять экипировку:key.mouse.86
+key_Снять экипировку:key.keyboard.c
 key_Режим разработчика:key.keyboard.f10
 key_Скрыть интерфейс:key.keyboard.f1
-key_Смена скорости ходьбы:key.mouse.5
+key_Смена скорости ходьбы:key.keyboard.left.alt
 key_Переключить слежку:key.keyboard.n
 key_Выставить руку:key.keyboard.y
 key_Настройки:key.keyboard.f7
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
-key_key.firstperson.toggle:key.keyboard.f6
+key_key.firstperson.toggle:key.keyboard.unknown
 key_key.freecam.toggle:key.keyboard.f4
 key_key.freecam.controlPlayer.toggle:key.keyboard.unknown
 key_key.freecam.tripod.reset:key.keyboard.unknown
 key_key.freecam.config.open:key.keyboard.unknown
 key_key.ipla.place_item_key:key.keyboard.v
-key_key.ipla.rotate_item_key:key.keyboard.left.alt
+key_key.ipla.rotate_item_key:key.keyboard.g
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.b
+key_gui.xaero_new_waypoint:key.keyboard.unknown
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
@@ -247,12 +247,12 @@ key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.yamlconfig.configs:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.3526490066225166
+soundCategory_master:0.6403973509933774
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

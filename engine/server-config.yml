@@ -171,7 +171,8 @@ chat:
       artifacts: [ '-', '~' ]
     simulation:
       range: 24
-      performance-debug: true
+      performance-debug: false
+      rebuild-debug: false
     volume:
       max: 10
       hearing-threshold: 0.07
