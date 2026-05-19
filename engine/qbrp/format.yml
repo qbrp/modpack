@@ -1,1 +1,11 @@
 spy: "<gold>[Spy]</gold> {original}"
+regex:
+  replace:
+    - exp: '\*.*\*$'
+      remove: "*"
+      value: "<aqua><bold>—</bold> {match}"
+    - exp: '\*.*\*'
+      remove: "*"
+      value: "<aqua><bold>—</bold> {match} <bold>—</bold></aqua>"
+    - exp: '--'
+      value: '—'
