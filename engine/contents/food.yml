@@ -10,3 +10,5 @@ items:
     display_name: Консервированное мясо
   fish_tincan:
     display_name: Консервированная рыба
+  edrink:
+    display_name: Энергетический напиток
