@@ -24,7 +24,8 @@ local function SubterrinaReactorSoundSystem(world, entity, voxel, reactor)
             {
                 pos = voxel,
                 attenuate = true,
-                is_relative = false
+                is_relative = false,
+                radius = 8
             }
         )
         reactor_ambience:set_component(RepeatableComponent.new(1, true))
