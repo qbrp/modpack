@@ -1,0 +1,8 @@
+namespace: sounds/door
+sounds:
+  mechanical_hatch_start:
+    pitch_random: 0.1
+    plays: [ ~/mechanical_hatch_start ]
+  mechanical_hatch_stop:
+    pitch_random: 0.1
+    plays: [ ~/mechanical_hatch_stop ]

@@ -1,0 +1,6 @@
+{
+    "obj": true,
+    "model": "~/geiger_counter",
+    "flip_v": true,
+    "display": {}
+}

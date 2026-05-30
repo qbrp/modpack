@@ -1,0 +1,11 @@
+namespace: sounds/organic
+sounds:
+  slime:
+    pitch_random: 0.1
+    plays: [ ~/slime ]
+  squawk:
+    pitch_random: 0.1
+    plays: [ ~/squawk ]
+  wowowo:
+    pitch_random: 0.1
+    plays: [ ~/wowowo ]

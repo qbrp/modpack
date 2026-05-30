@@ -1,0 +1,14 @@
+namespace: sounds/intercom
+sounds:
+  acoustic:
+    pitch_random: 0.05
+    plays: [ ~/acoustic ]
+  acoustic_reverse:
+    pitch_random: 0.05
+    plays: [ ~/acoustic_reverse ]
+  synth:
+    pitch_random: 0.05
+    plays: [ ~/synth ]
+  synth_reverse:
+    pitch_random: 0.05
+    plays: [ ~/synth_reverse ]

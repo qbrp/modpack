@@ -1,0 +1,6 @@
+namespace: sounds/pc
+sounds:
+  notification:
+    plays: [ ~/notification ]
+  startup_music:
+    plays: [ ~/startup_music ]

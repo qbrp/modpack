@@ -1,0 +1,14 @@
+namespace: sounds/signal
+sounds:
+  beep_beep:
+    plays: [ ~/beep_beep ]
+  beep_distorted:
+    plays: [ ~/beep_distorted ]
+  beep_distorted_low:
+    plays: [ ~/beep_distorted_low ]
+  beep_long:
+    plays: [ ~/beep_long ]
+  beep_callback:
+    plays: [ ~/beep_callback ]
+  horn:
+    plays: [ ~/horn ]
