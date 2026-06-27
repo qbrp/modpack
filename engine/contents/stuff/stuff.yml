@@ -38,3 +38,13 @@ items:
     display_name: Мелкая шестерня
   golden_dumbbell:
     display_name: Золотая гантель
+  phone:
+    display_name: Телефон
+  ciggarete:
+    display_name: Сигарета
+  cig_box:
+    display_name: Коробка сигарет
+  cash:
+    display_name: Деньги
+  black_box:
+    display_name: Чёрный ящик

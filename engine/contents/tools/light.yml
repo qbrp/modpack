@@ -20,3 +20,5 @@ items:
     material: torch
   projector_flashlight_off:
     display_name: Фонарь прожектор
+  chemlight:
+    display_name: Химический свет

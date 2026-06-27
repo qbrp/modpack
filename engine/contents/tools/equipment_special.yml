@@ -4,3 +4,7 @@ items:
     display_name: Стандартный измеритель
   meterp:
     display_name: Проффесианальный измеритель
+  geiger_counter:
+    display_name: Счётчик Гейгера
+  handcuffs:
+    display_name: Наручники
