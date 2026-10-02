@@ -1,0 +1,6 @@
+namespace: decorative/sign
+items:
+  sign_radioactive:
+    display_name: Табличка "Радиоактивность"
+  flag_holder:
+    display_name: Держатель флага "Санация"

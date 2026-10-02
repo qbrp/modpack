@@ -1,0 +1,17 @@
+namespace: food/meat
+items:
+  piece_rotten:
+    display_name: Ломоть гнилого мяса
+    mass: 1
+  piece_raw:
+    display_name: Ломоть сырого мяса
+    mass: 1
+  piece_cooked:
+    display_name: Ломоть приготовленного мяса
+    mass: 1
+  pile_rotten_guts:
+    display_name: Куча гнилого мяса с кишками
+    mass: 2
+  pile_raw_guts:
+    display_name: Куча сырого мяса с кишками
+    mass: 2

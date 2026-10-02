@@ -1,0 +1,30 @@
+namespace: food
+items:
+  can_beans:
+    display_name: Консервированные бобы
+    mass: 0.3
+  can_meat:
+    display_name: Консервированное тушёное мясо
+    mass: 0.4
+  can_fish:
+    display_name: Консервированная рыба
+    mass: 0.4
+  can_spam:
+    display_name: Гыча
+    mass: 0.35
+  can_water:
+    display_name: Консервированная вода
+    mass: 0.35
+  energy_drink:
+    display_name: Энергетический напиток
+    mass: 0.2
+  beer:
+    display_name: Бутылированное пиво
+    mass: 0.8
+  bottle:
+    display_name: Бутылированная вода
+    mass: 1
+  concentrate:
+    display_name: Концентрат пищевой
+    tooltip: Зелёный, 30 проба.
+    mass: 0.25

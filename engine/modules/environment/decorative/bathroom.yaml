@@ -1,0 +1,20 @@
+namespace: decorative/bathroom
+items:
+  locker:
+    display_name: Металлический шкаф
+  roller_blind_closed:
+    display_name: Закрытая ролл штора
+  roller_blind_opened:
+    display_name: Открытая ролл штора
+  shower:
+    display_name: Душ
+  sink:
+    display_name: Раковина
+  toilet_paper_holder:
+    display_name: Держатель туалетной бумаги
+  toilet_paper_holder_empty:
+    display_name: Пустой держатель туалетной бумаги
+  wall_cabinet:
+    display_name: Настенный шкафчик
+  toilet:
+    display_name: Унитаз

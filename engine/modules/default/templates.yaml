@@ -1,0 +1,6 @@
+templates:
+  items:
+    model: "/{id}"
+    max_count: 1
+    sounds:
+      click: /common/sounds/click

@@ -1,0 +1,12 @@
+namespace: bodies/ruined/2
+items:
+  lying_1:
+    display_name: Уничтоженный труп
+  sitting_1:
+    display_name: Уничтоженный труп сидящий
+  lying_2:
+    display_name: Уничтоженный труп
+  lying_2_torso:
+    display_name: Уничтоженны труп без конечностей
+  lying_3:
+    display_name: Уничтоженный труп

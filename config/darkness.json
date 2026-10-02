@@ -1,0 +1,13 @@
+{
+  "darkOverworld": true,
+  "darkNether": false,
+  "darkEnd": false,
+  "darkCreative": false,
+  "requireMod": false,
+  "fullMoonBrightness": 50,
+  "gibbousMoonBrightness": 30,
+  "quarterMoonBrightness": 15,
+  "crescentMoonBrightness": 5,
+  "newMoonBrightness": 0,
+  "caveBrightness": 0
+}

@@ -1,0 +1,10 @@
+namespace: tools/hard_tools
+items:
+  sledgehammer:
+    display_name: Кувалда
+  sledgehammer_vagner:
+    display_name: Кувалда "Вагнер"
+  crowbar:
+    display_name: Монтировка
+  power_hammer:
+    display_name: Латунный отбойный молоток

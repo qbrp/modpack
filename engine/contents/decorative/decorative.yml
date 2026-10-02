@@ -1,8 +1,0 @@
-namespace: decorative
-items:
-  tent:
-    model: ~/tent/tent
-    display_name: Палатка
-  tent_collapsed:
-    display_name: Сложенная палатка
-    model: ~/tent/collapsed/tent_collapsed

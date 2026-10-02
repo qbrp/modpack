@@ -1,0 +1,10 @@
+namespace: meta
+items:
+  glesgorv_model:
+    display_name: Коллекционная фигурка qbrp "MrGlesgorv"
+  coil_aqua:
+    display_name: Спид-койл
+  error:
+    display_name: ERROR
+  blyat:
+    display_name: БЛЯТЬ

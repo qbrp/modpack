@@ -1,0 +1,5 @@
+namespace: bodies/civil
+items:
+  bum:
+    display_name: Спящий бездомный
+    tooltip: Бом, проснись

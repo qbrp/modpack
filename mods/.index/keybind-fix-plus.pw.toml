@@ -1,0 +1,25 @@
+filename = 'keybindfixplus-2.0.0.jar'
+name = 'Keybind Fix Plus'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = '8b965d4af240396d1f0ba88926732faa4efc12b25f47e72bc09e93b1ffdbf18dec83e5e1962ac5145c22b2f56365edddf8df2636b36a2196819c6e227e56dac9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JKuinnWa/versions/jFW6823S/keybindfixplus-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'JKuinnWa'
+version = 'jFW6823S'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ha28R6CL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

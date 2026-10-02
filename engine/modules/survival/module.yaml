@@ -1,0 +1,7 @@
+namespace: survival
+namespaces:
+  - survival/food
+  - survival/food/meat
+  - survival/medicine
+depends:
+  - default

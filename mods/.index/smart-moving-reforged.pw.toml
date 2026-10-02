@@ -1,0 +1,21 @@
+filename = 'smartmoving-1.0.1+1.21.1.jar'
+name = 'Smart Moving Reforged'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1+1.21.1'
+
+[download]
+hash = '5ea04923c9f4f1e42b47581e08374deb540f899a5c30014d0b4162c0a0fcb8846da9a0c92a87a0d2278000514c35c5de1357b37fb7b2b3571be963f050b87245'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2kH8tFlp/versions/nL0bT7X0/smartmoving-1.0.1%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '2kH8tFlp'
+version = 'nL0bT7X0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

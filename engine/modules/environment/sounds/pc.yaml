@@ -1,0 +1,8 @@
+namespace: sounds/pc
+sound_events:
+  notification:
+    sources:
+      - id: environment/sounds/pc/notification
+  startup_music:
+    sources:
+      - id: environment/sounds/pc/startup_music

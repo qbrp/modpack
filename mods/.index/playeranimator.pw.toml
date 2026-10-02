@@ -1,0 +1,21 @@
+filename = 'player-animation-lib-fabric-2.0.4+1.21.1.jar'
+name = 'playerAnimator'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.4+1.21.1-fabric'
+
+[download]
+hash = '14a931f5cf9f1a767c717a2ae65eb1041d3aab1fbb2c90e3f3a18433ed2f7264674fe40b85c136036fa08d2459543394b65e6866e73e8893e823c5ce37dfd086'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gedNE4y2/versions/CkedfDp3/player-animation-lib-fabric-2.0.4%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'gedNE4y2'
+version = 'CkedfDp3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aRnIEV0F'
+type = 'OPTIONAL'

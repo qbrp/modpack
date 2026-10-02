@@ -1,0 +1,14 @@
+namespace: sounds/organic
+sound_events:
+  slime:
+    sources:
+      - id: environment/sounds/organic/slime
+        pitch_random: 0.1
+  squawk:
+    sources:
+      - id: environment/sounds/organic/squawk
+        pitch_random: 0.1
+  wowowo:
+    sources:
+      - id: environment/sounds/organic/wowowo
+        pitch_random: 0.1

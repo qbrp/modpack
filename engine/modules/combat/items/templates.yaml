@@ -1,0 +1,11 @@
+templates:
+  ammunition:
+    template: /default/items
+    max_count: 48
+  "weapons/ranged":
+    template: /default/items
+    sounds:
+      selector: /combat/weapons/ranged/selector
+      round_barrel: /combat/weapons/ranged/round_barrel
+      bullet_hit: /combat/weapons/ranged/bullet_hit
+      gun_trigger: /combat/weapons/ranged/trigger

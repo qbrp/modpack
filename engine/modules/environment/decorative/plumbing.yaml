@@ -1,0 +1,8 @@
+namespace: decorative/plumbing
+items:
+  crane:
+    display_name: Водопроводный кран
+  crane_default:
+    display_name: Водопроводный кран стандартный
+  crane_forpipe:
+    display_name: Водопроводный кран для трубы

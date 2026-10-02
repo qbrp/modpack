@@ -1,0 +1,222 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [42, 42],
+	"textures": {
+		"1": "engine:~/magazine_akm"
+	},
+	"elements": [
+		{
+			"from": [7.4, 6.8, 8.85],
+			"to": [8.6, 9.8, 11.6],
+			"faces": {
+				"north": {"uv": [2.28571, 8, 3.71429, 11.42857], "texture": "#1"},
+				"east": {"uv": [0, 4.57143, 3.14286, 8], "texture": "#1"},
+				"south": {"uv": [4.57143, 8, 6, 11.42857], "texture": "#1"},
+				"west": {"uv": [3.42857, 4.57143, 6.57143, 8], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [11.71429, 6.57143, 10.28571, 3.42857], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.65, 8.7, 11.6],
+			"to": [8.35, 9.8, 11.775],
+			"faces": {
+				"east": {"uv": [12.57143, 6.85714, 12.71429, 8.14286], "texture": "#1"},
+				"south": {"uv": [12.57143, 0, 13.42857, 1.28571], "texture": "#1"},
+				"west": {"uv": [12.57143, 9.14286, 12.71429, 10.42857], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [13.42857, 11.57143, 12.57143, 11.42857], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.65, 8.30035, 11.39618],
+			"to": [8.35, 8.77535, 11.57118],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8.22535, 11.48368]},
+			"faces": {
+				"east": {"uv": [12.57143, 12.57143, 12.71429, 13.14286], "texture": "#1"},
+				"south": {"uv": [12.57143, 5.71429, 13.42857, 6.28571], "texture": "#1"},
+				"west": {"uv": [13.71429, 0, 13.85714, 0.57143], "texture": "#1", "cullface": "west"}
+			}
+		},
+		{
+			"from": [7.6, 7.3, 8.25],
+			"to": [8.4, 9.8, 8.85],
+			"faces": {
+				"north": {"uv": [6.85714, 11.42857, 7.71429, 14.28571], "texture": "#1"},
+				"east": {"uv": [11.42857, 10.28571, 12.14286, 13.14286], "texture": "#1"},
+				"west": {"uv": [0, 12.57143, 0.71429, 15.42857], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [2, 13.28571, 1.14286, 12.57143], "texture": "#1"},
+				"down": {"uv": [13.42857, 2.28571, 12.57143, 3], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.401, 3.78941, 8.30089],
+			"to": [8.599, 7.78941, 11.05089],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 5.91441, 8.83839]},
+			"faces": {
+				"north": {"uv": [6.85714, 6.85714, 8.28571, 11.42857], "texture": "#1"},
+				"east": {"uv": [0, 0, 3.14286, 4.57143], "texture": "#1"},
+				"south": {"uv": [0, 8, 1.42857, 12.57143], "texture": "#1"},
+				"west": {"uv": [3.42857, 0, 6.57143, 4.57143], "texture": "#1", "cullface": "west"}
+			}
+		},
+		{
+			"from": [7.601, 4.28941, 7.70089],
+			"to": [8.399, 7.78941, 8.30089],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 5.91441, 8.83839]},
+			"faces": {
+				"north": {"uv": [2.28571, 11.42857, 3.14286, 15.42857], "texture": "#1"},
+				"east": {"uv": [4.57143, 11.42857, 5.28571, 15.42857], "texture": "#1"},
+				"west": {"uv": [5.71429, 11.42857, 6.42857, 15.42857], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [13.42857, 3.42857, 12.57143, 4.14286], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.4, 2.21813, 6.64147],
+			"to": [8.6, 5.21813, 9.39147],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3.34313, 7.17897]},
+			"faces": {
+				"north": {"uv": [9.14286, 6.85714, 10.57143, 10.28571], "texture": "#1"},
+				"east": {"uv": [6.85714, 0, 10, 3.42857], "texture": "#1"},
+				"south": {"uv": [10.28571, 0, 11.71429, 3.42857], "texture": "#1"},
+				"west": {"uv": [6.85714, 3.42857, 10, 6.85714], "texture": "#1"},
+				"down": {"uv": [10.57143, 10.28571, 9.14286, 13.42857], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.6, 2.21813, 6.04147],
+			"to": [8.4, 5.21813, 6.64147],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3.34313, 7.17897]},
+			"faces": {
+				"north": {"uv": [3.42857, 11.42857, 4.28571, 14.85714], "texture": "#1"},
+				"east": {"uv": [11.42857, 6.85714, 12.14286, 10.28571], "texture": "#1"},
+				"west": {"uv": [8, 11.42857, 8.71429, 14.85714], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [13.42857, 4.57143, 12.57143, 5.28571], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -0.75, -2.5],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -0.75, -2.5],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"translation": [3.75, 0.75, -4.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 0.75, -4.75]
+		},
+		"ground": {
+			"rotation": [0, 0, -90],
+			"translation": [0, -2.25, -1.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [1, 2, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [1.25, 3.75, -1.25],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "reciver",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "inner parts",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "barrel",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "bolts",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "other",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "dust cover",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "handguard",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "grip",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "stock",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "magazine",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [1, 2, 3, 4, 5, 6, 7, 8]
+		},
+		{
+			"name": "gas block",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "Slide",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "Selector",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		}
+	]
+}

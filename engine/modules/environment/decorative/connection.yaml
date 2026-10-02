@@ -1,0 +1,36 @@
+namespace: decorative/connection
+items:
+  control_panel_table:
+    display_name: Настольная панель управления
+  control_panel_wall:
+    display_name: Настенная панель управления
+  laptop:
+    display_name: Ноутбук
+  laptop_closed:
+    display_name: Закрытый ноутбук
+  laptop_off:
+    display_name: Выключенный ноутбук
+  printer:
+    display_name: Универсальный принтер
+  radio:
+    display_name: Переносная радиостанция
+  server_box:
+    display_name: Серверный ящик
+  computer:
+    display_name: Системный блок
+  keyboard_mouse:
+    display_name: Клавиатура и компьютерная мышь
+  monitor_bios:
+    display_name: Монитор BIOS
+  monitor_broken:
+    display_name: Монитор разбитый
+  monitor_broken_off:
+    display_name: Монитор разбитый выключенный
+  monitor_bsod:
+    display_name: Монитор BSOD
+  monitor_desktop:
+    display_name: Монитор рабочий стол
+  monitor_desktop_soft:
+    display_name: Монитор софт
+  monitor_off:
+    display_name: Монитор выключенный

@@ -1,0 +1,64 @@
+namespace: weapons/ranged/pistols
+use_templates:
+  items: /combat/weapons/ranged
+items:
+  glock_21:
+    display_name: Glock 21
+    tooltip: 9mm(45ACP) Goes Bang
+    barrel:
+      bullets: 13
+      ammunition: "@ammo/45_acp_round"
+    gun:
+      smoke: [0.15, -0.1, 0.5] # 1 - лево/право 2 - вверх/вниз 3 - ???
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_glock21
+  hardballer:
+    display_name: AMT Hardballer Longslide
+    tooltip: T-800
+    barrel:
+      bullets: 7
+      ammunition: "@ammo/45_acp_round"
+    gun:
+      smoke: [0.15, -0.1, 0.6]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_hardballer
+  m1911_a1:
+    display_name: m1911a1
+    tooltip: Гамп. Проверь нору
+    barrel:
+      bullets: 1
+      ammunition: "@ammo/45_acp_round"
+    gun:
+      smoke: [0.15, -0.1, 0.5]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_colt
+  m1911_a1_gold:
+    display_name: m1911a1 Позолоченный
+    tooltip: Гамп. Проверь нору
+    barrel:
+      bullets: 7
+      ammunition: "@ammo/45_acp_round"
+    gun:
+      smoke: [0.15, -0.1, 0.5]
+      rate: 2
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_colt
+  chippa_rhino_200:
+    display_name: Chiappa Rhino 200DS
+    tooltip: BB gun
+    barrel:
+      bullets: 6
+      ammunition: "@ammo/9x19_bullet"
+    gun:
+      smoke: [0.15, -0.1, 0.5]
+      rate: 10
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_200ds

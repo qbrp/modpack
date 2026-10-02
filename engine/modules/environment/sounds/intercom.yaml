@@ -1,0 +1,18 @@
+namespace: sounds/intercom
+sound_events:
+  acoustic:
+    sources:
+      - id: environment/sounds/intercom/acoustic
+        pitch_random: 0.05
+  acoustic_reverse:
+    sources:
+      - id: environment/sounds/intercom/acoustic_reverse
+        pitch_random: 0.05
+  synth:
+    sources:
+      - id: environment/sounds/intercom/synth
+        pitch_random: 0.05
+  synth_reverse:
+    sources:
+      - id: environment/sounds/intercom/synth_reverse
+        pitch_random: 0.05

@@ -1,0 +1,30 @@
+namespace: environment
+namespaces:
+  - environment/bodies/civil
+  - environment/bodies/other
+  - environment/bodies/ruined/1
+  - environment/bodies/ruined/2
+  - environment/bodies/untouched
+  - environment/bodies/untouched_holes
+  - environment/decorative
+  - environment/decorative/bombs
+  - environment/decorative/bathroom
+  - environment/decorative/connection
+  - environment/decorative/electronics
+  - environment/decorative/interior
+  - environment/decorative/lab
+  - environment/decorative/office
+  - environment/decorative/pipes
+  - environment/decorative/plumbing
+  - environment/decorative/sign
+  - environment/decorative/trash
+  - environment/funny
+  - environment/meta
+  - environment/props
+  - environment/sounds/door
+  - environment/sounds/intercom
+  - environment/sounds/organic
+  - environment/sounds/pc
+  - environment/sounds/signal
+depends:
+  - default

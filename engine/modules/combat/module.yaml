@@ -1,0 +1,23 @@
+namespace: combat
+namespaces:
+  - combat/ammunition
+  - combat/explosives
+  - combat/weapons
+  - combat/weapons/ranged
+  - combat/weapons/melee
+  - combat/weapons/melee/baton
+  - combat/weapons/melee/handmade
+  - combat/weapons/melee/knife
+  - combat/weapons/melee/machete
+  - combat/weapons/ranged/assaults
+  - combat/weapons/ranged/grenade_launcher
+  - combat/weapons/ranged/lmg
+  - combat/weapons/ranged/shotgun
+  - combat/weapons/ranged/stationary
+  - combat/weapons/ranged/pistols
+  - combat/weapons/ranged/sniper
+  - combat/weapons/ranged/submachine
+depends:
+  - default
+imports:
+  ammo: combat/ammunition

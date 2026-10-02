@@ -1,0 +1,20 @@
+namespace: sounds/signal
+sound_events:
+  beep_beep:
+    sources:
+      - id: environment/sounds/signal/beep_beep
+  beep_distorted:
+    sources:
+      - id: environment/sounds/signal/beep_distorted
+  beep_distorted_low:
+    sources:
+      - id: environment/sounds/signal/beep_distorted_low
+  beep_long:
+    sources:
+      - id: environment/sounds/signal/beep_long
+  beep_callback:
+    sources:
+      - id: environment/sounds/signal/beep_callback
+  horn:
+    sources:
+      - id: environment/sounds/signal/horn

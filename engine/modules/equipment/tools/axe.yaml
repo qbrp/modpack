@@ -1,0 +1,16 @@
+namespace: tools/axe
+items:
+  basic:
+    display_name: Топор
+  splitting_wooden:
+    display_name: Топор колун
+  fire:
+    display_name: Штурмовой пожарный топор
+  fullmetal:
+    display_name: Цельнометаллический топор
+  tomahawk:
+    display_name: Штурмовой томагавк
+  modern:
+    display_name: Эргономичный топор
+  splitting_axe:
+    display_name: Эргономичный топор колун

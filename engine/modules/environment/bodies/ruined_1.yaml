@@ -1,0 +1,18 @@
+namespace: bodies/ruined/1
+items:
+  hanging_down_1:
+    display_name: Уничтоженный труп (свисающий)
+  hanging_down_2:
+    display_name: Уничтоженный труп (свисающий)
+  lying_1:
+    display_name: Уничтоженный труп (лежащий)
+  lying_2:
+    display_name: Уничтоженный труп (лежащий)
+  lying_3:
+    display_name: Уничтоженный труп (лежащий)
+  lying_4:
+    display_name: Уничтоженный труп (лежащий)
+  sitting_1:
+    display_name: Уничтоженный труп (сидящий)
+  sitting_2:
+    display_name: Уничтоженный труп (сидящий)

@@ -1,0 +1,9 @@
+enabled:
+  - "default"
+  - "combat"
+  - "equipment"
+  - "survival"
+  - "environment"
+  - "player"
+  - "devtools"
+  - "rp"

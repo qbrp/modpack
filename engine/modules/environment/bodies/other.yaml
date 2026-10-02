@@ -1,0 +1,4 @@
+namespace: bodies/other
+items:
+  pigeon:
+    display_name: Голубь

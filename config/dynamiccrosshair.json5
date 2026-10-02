@@ -44,7 +44,7 @@
 			"coalesce": true
 		},
 		"onEntity": {
-			"style": "dynamiccrosshair:crosshair/cross-open",
+			"style": "dynamiccrosshair:crosshair/dot",
 			"overrideColor": false,
 			"customColor": -5588020,
 			"enableBlend": true,
@@ -86,7 +86,7 @@
 			"coalesce": false
 		},
 		"interact": {
-			"style": "dynamiccrosshair:crosshair/dot",
+			"style": "dynamiccrosshair:crosshair/cross-diagonal-small",
 			"overrideColor": false,
 			"customColor": -5588020,
 			"enableBlend": true,

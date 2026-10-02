@@ -1,0 +1,8 @@
+namespace: decorative/bombs
+items:
+  lilboy:
+    display_name: Бомба "Малыш"
+  fatman:
+    display_name: Бомба "Толстяк"
+  tsar:
+    display_name: Царь-бомба

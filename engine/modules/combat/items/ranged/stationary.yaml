@@ -1,0 +1,8 @@
+namespace: weapons/ranged/stationary
+use_templates:
+  items: /combat/weapons/ranged
+items:
+  browning_m2:
+    display_name: Браунинг М2
+  browning_m2_empty:
+    display_name: Пустой браунинг М2

@@ -1,0 +1,6 @@
+assets/survival/food/pills.asset.json assets/survival/food/pills.json assets/survival/food/pills.mtl assets/survival/food/pills.obj assets/survival/food/pills.png{
+    "model": {
+        "type": "minecraft:model",
+        "model": "engine:~/esmarch_tourniquet"
+    }
+}

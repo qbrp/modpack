@@ -1,0 +1,8 @@
+namespace: weapons/melee/machete
+items:
+   survival_tool_1:
+      display_name: Мачете ST-1
+   military:
+      display_name: Военное мачете
+   default:
+      display_name: Мачете

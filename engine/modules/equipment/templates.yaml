@@ -1,0 +1,6 @@
+templates:
+  clothing:
+    template: /default/items
+    progression_animations:
+      equip: /equipment/progression/equip
+      take_off: /equipment/progression/take_off

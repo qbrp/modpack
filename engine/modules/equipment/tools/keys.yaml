@@ -1,0 +1,38 @@
+namespace: tools/utility/keys
+items:
+  keycard:
+    display_name: Магнитная ключ карта
+  dimple_key_gray:
+    display_name: Серый перфорированный ключ
+  dimple_key_green:
+    display_name: Зелёный перфорированный ключ
+  dimple_key_cyan:
+    display_name: Синий перфорированный ключ
+  dimple_key_red:
+    display_name: Красный перфорированный ключ
+  dimple_key_yellow:
+    display_name: Жёлтый перфорированный ключ
+  dimple_key_tag1:
+    display_name: Серый перфорированный ключ с биркой
+  dimple_key_tag2:
+    display_name: Серый перфорированный ключ с биркой
+  abloy_key_gray:
+    display_name: Серый дисковый ключ
+  abloy_key_red:
+    display_name: Красный дисковый ключ
+  abloy_key_green:
+    display_name: Зелёный дисковый ключ
+  abloy_key_yellow:
+    display_name: Жёлтый дисковый ключ
+  dimple_key:
+    display_name: Димпл-ключ
+  dimple_key_marked:
+    display_name: Меченный Димпл-ключ
+  lever_key_steel:
+    display_name: Стальной сувальдный ключ
+  lever_key_iron:
+    display_name: Железный сувальдный ключ
+  lever_key_bronze:
+    display_name: Бронзовый сувальдный ключ
+  lever_key_rusty:
+    display_name: Ржавый сувальдный ключ

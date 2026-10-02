@@ -1,0 +1,6 @@
+namespace: tools/light_electronics
+items:
+  cellphone:
+    display_name: Сенсорный мобильный телефон
+  cellphone_broken:
+    display_name: Разбитый сенсорный мобильный телефон

@@ -1,50 +1,43 @@
+connection:
+  #Minimum value: 3, Maximum value: 180, Default value: 15
+  skin_download_retry_delay: 15
+auth:
+  #Default value: false
+  auto_login: false
 chat:
-  width:
-    #Minimum value: 0, Maximum value: 600, Default value: 340
-    340
-  size:
-    #Minimum value: 0, Maximum value: 5000, Default value: 300
-    300
+  #Minimum value: 0, Maximum value: 600, Default value: 340
+  width: 340
+  #Minimum value: 0, Maximum value: 5000, Default value: 300
+  size: 300
 chat-bubbles:
-  enabled:
-    #Default value: true
-    true
-  scale:
-    #Minimum value: 0.01, Maximum value: 3.0, Default value: 1.0
-    1.0
-  height:
-    #Minimum value: 1.0, Maximum value: 10.0, Default value: 1.9
-    1.9
-  line-width:
-    #Minimum value: 50, Maximum value: 1000, Default value: 200
-    200
-  life-time:
-    #Minimum value: 2, Maximum value: 2400, Default value: 200
-    200
-  background-opacity:
-    #Minimum value: 0, Maximum value: 100, Default value: 50
-    50
-  hiding:
-    #Default value: true
-    true
-  ignore-light-level:
-    #Default value: true
-    false
+  #Default value: true
+  enabled: true
+  #Minimum value: 0.01, Maximum value: 3.0, Default value: 1.0
+  scale: 1.0
+  #Minimum value: 1.0, Maximum value: 10.0, Default value: 1.9
+  height: 1.9
+  #Minimum value: 50, Maximum value: 1000, Default value: 200
+  line-width: 200
+  #Minimum value: 2, Maximum value: 2400, Default value: 200
+  life-time: 200
+  #Minimum value: 0, Maximum value: 100, Default value: 50
+  background-opacity: 50
+  #Default value: true
+  hiding: true
+  #Default value: true
+  ignore-light-level: false
 chat-input:
-  shaking-force:
-    #Minimum value: 0.0, Maximum value: 5.0, Default value: 3.0
-    3.0
-  shaking-threshold:
-    #Minimum value: 0.0, Maximum value: 1.0, Default value: 0.5
-    0.5
-  closing:
-    #Default value: false
-    false
-crosshair:
-  indicator-visible:
-    #Default value: false
-    false
+  #Minimum value: 0.0, Maximum value: 5.0, Default value: 3.0
+  shaking-force: 3.0
+  #Minimum value: 0.0, Maximum value: 1.0, Default value: 0.5
+  shaking-threshold: 0.5
+  #Default value: false
+  closing: false
+ui:
+  #Default value: false
+  indicator-visible: false
+  #Default value: false
+  hotbar-visible: false
 visual:
-  easing-distance:
-    #Minimum value: 4, Maximum value: 16, Default value: 6
-    6
+  #Minimum value: 4, Maximum value: 16, Default value: 6
+  easing-distance: 6

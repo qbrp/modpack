@@ -1,0 +1,28 @@
+namespace: weapons/ranged
+sound_events:
+  selector:
+    sources:
+      - id: combat/weapons/ranged/selector
+        distance: 8
+        pitch_random: 0.2
+  round_barrel:
+    sources:
+      - id: combat/weapons/ranged/round_barrel
+        distance: 8
+        pitch_random: 0.2
+  click_empty:
+    sources:
+      - id: combat/weapons/ranged/click_empty
+        distance: 8
+        pitch_random: 0.2
+  bullet_hit:
+    sources:
+      - id: combat/weapons/ranged/bullet_hit
+        distance: 12
+        pitch_random: 0.2
+  trigger:
+    sources:
+      - id: combat/weapons/ranged/trigger
+        distance: 7
+        pitch_random: 0.1
+        volume: 0.25

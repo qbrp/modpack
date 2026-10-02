@@ -1,0 +1,26 @@
+namespace: decorative/interior
+items:
+  beam:
+    display_name: Металлическая балка
+  line1:
+    display_name: Изоляция посередине
+  line2:
+    display_name: Изоляция к стене
+  metal_hatch:
+    display_name: Металлический люк
+  metal_hatch_simple:
+    display_name: Металлический люк упрощённый
+  support:
+    display_name: Поддерживающая конструкция
+  wall_cabinet:
+    display_name: Настенный шкаф
+  sofa_1x1:
+    display_name: Кресло
+  rack_2:
+    display_name: Металлический стеллаж
+  rack_3:
+    display_name: Большой металлический стеллаж
+  shelf_2:
+    display_name: Деревянный стеллаж
+  shelf_3:
+    display_name: Большой деревянный стеллаж

@@ -1,0 +1,4 @@
+namespace: player
+namespaces:
+  - player/movement
+  - player/spectating

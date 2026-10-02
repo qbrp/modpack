@@ -1,0 +1,10 @@
+namespace: tools/handyman_stuff
+items:
+  bucket:
+    display_name: Оцинкованное ведро с водой
+  bucket_empty:
+    display_name: Оцинкованное ведро
+  mop:
+    display_name: Швабра
+  rag:
+    display_name: Тряпка для швабры

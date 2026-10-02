@@ -1,0 +1,50 @@
+namespace: ammunition
+use_templates:
+  items: /combat/ammunition
+items:
+  12_guage_round:
+    display_name: Картечь 12 калибра
+  12_guage_cassing:
+    display_name: Гильза 12 калибра
+  5_45x39bullet:
+    display_name: Патрон 5.45x39
+  5_45x39cassing:
+    display_name: Гильза 5.45x39
+  223_round:
+    display_name: Патрон 223
+    stack_size: 48
+  223_cassing:
+    display_name: Гильза 223
+  7_62x39round:
+    display_name: Патрон 7.62x39
+  7_62x39cassing:
+    display_name: Гильза 7.62x39
+  7_62x51bullet:
+    display_name: Патрон 7.62x51
+  7_62x51cassing:
+    display_name: Гильза 7.62x51
+  9x19_bullet:
+    display_name: Патрон 9x19 Parabellum
+    stack_size: 48
+  9x19_cassing:
+    display_name: Гильза 9x19
+  45_acp_round:
+    display_name: Патрон 45 ACP
+    stack_size: 48
+  45_acp_cassing:
+    display_name: Гильза 45 ACP
+  45-70_bullet:
+    display_name: Патрон 45-70 Government
+  45-70_cassing:
+    display_name: Гильза 45-70
+  7_62x54_bullet:
+    display_name: Патрон 7.62x54
+  7_62x54_cassing:
+    display_name: Гильза 7.62x54
+  50bmg_feed:
+    display_name: Лента 12.7x99
+  50bmg:
+    display_name: Патрон 12.7x99
+  50bmgcassing:
+    display_name: Гильза 12.7x99
+    

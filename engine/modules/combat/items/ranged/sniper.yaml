@@ -1,0 +1,40 @@
+namespace: weapons/ranged/sniper
+use_templates:
+  items: /combat/weapons/ranged
+items:
+  marlin:
+    display_name: Marlin 1895
+    tooltip: Yeehaw
+    barrel:
+      bullets: 5
+      ammunition: "@ammo/45-70_bullet"
+    gun:
+      smoke: [0.15, -0.1, 0.7]
+      rate: 20
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_mosin
+  mosinnagant:
+    display_name: Винтовка Мосина 1891
+    tooltip: 1918 год, Семья Романовых в расход
+    barrel:
+      bullets: 5
+      ammunition: "@ammo/7_62x54_bullet"
+    gun:
+      smoke: [0.15, -0.1, 0.7]
+      rate: 35
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/gunfire_mosin
+  sv_98:
+    display_name: СВ-98
+    tooltip: С оптикой
+    barrel:
+      bullets: 10
+      ammunition: "@ammo/7_62x51bullet"
+    gun:
+      smoke: [0.15, -0.1, 0.7]
+      rate: 35
+      modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/assaults/gunfire_akm

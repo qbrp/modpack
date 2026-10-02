@@ -1,0 +1,18 @@
+namespace: equipment
+namespaces:
+  - equipment/clothing
+  - equipment/containers
+  - equipment/radios
+  - equipment/progression
+  - equipment/tools/axe
+  - equipment/tools/special
+  - equipment/tools/garden
+  - equipment/tools/handyman_stuff
+  - equipment/tools/hard_tools
+  - equipment/tools/light
+  - equipment/tools/light_electronics
+  - equipment/tools/petrol_tools
+  - equipment/tools/utility
+  - equipment/tools/utility/keys
+depends:
+  - default

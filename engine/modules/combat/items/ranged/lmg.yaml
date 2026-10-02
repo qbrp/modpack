@@ -1,0 +1,15 @@
+namespace: weapons/ranged/lmg
+use_templates:
+  items: /combat/weapons/ranged
+items:
+  m249:
+    display_name: M249 SAW
+    tooltip: Почти FN minimi
+    barrel:
+      bullets: 200
+      ammunition: "@ammo/223_round"
+    gun:
+      smoke: [0.15, -0.1, 0.6] # 1 - лево/право 2 - вверх/вниз 3 - ???
+      rate: 2
+    sounds:
+      gunfire: weapons/ranged/gunfire_m249

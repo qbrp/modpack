@@ -1,0 +1,14 @@
+namespace: progression
+progression_animations:
+  equip:
+    frames:
+      name: equipment/progression/equip
+      count: 9
+    text: "Экипирование"
+    success: "Экипировано"
+  take_off:
+    frames:
+      name: equipment/progression/equip
+      count: 9
+    text: "Снимается {lowercased_outfit_name}"
+    success: "Экипировка снята"
