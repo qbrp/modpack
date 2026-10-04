@@ -2,3 +2,4 @@ namespace: player
 namespaces:
   - player/movement
   - player/spectating
+  - player/no_clip
