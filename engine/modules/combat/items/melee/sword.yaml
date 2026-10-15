@@ -1,0 +1,6 @@
+namespace: weapons/melee/sword
+items:
+  katana:
+    display_name: Катана
+  nodachi:
+    display_name: Одати

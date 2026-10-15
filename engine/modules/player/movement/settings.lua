@@ -4,17 +4,18 @@
 
 ---@class MovementSettings
 local movement_settings = {
-    sprint_multiplier = 1.3,
+    sprint_multiplier = 1.2,
     min_speed_factor = 0.05,
     slowdown_stamina_threshold = 0.3,
-    stamina_consumption = 0.0033,
-    stamina_regen = 0.003,
+    slowdown_stamina_power = 1.4,
+    stamina_consumption = 0.0032,
+    stamina_regen = 0.002,
     sprint_min_intention_effect = 0.5,
     intention_effect = 0.7,
     jump_stamina_consume = 0.1,
     ---@type table<PlayerMode, MovementPrimaryAttributes>
     primary_attributes = {
-        default = { speed = 0.13, jump_strength = 0.4 },
+        default = { speed = 0.12, jump_strength = 0.4 },
         gm = { speed = 0.12, jump_strength = 0.45 },
         spectator = { speed = 0.15, jump_strength = 0.55 }
     }
@@ -34,7 +35,7 @@ function movement_settings.speed_multiplier(intention, stamina, is_sprinting, se
 
     local stamina_multiplier = 1.0
     if stamina < settings.slowdown_stamina_threshold then
-        stamina_multiplier = math.smoothstep(stamina / settings.slowdown_stamina_threshold)
+        stamina_multiplier = math.smoothstep(stamina / settings.slowdown_stamina_threshold * settings.slowdown_stamina_power)
     end
 
     local min_intention_multiplier = 1 - settings.intention_effect + min_speed_addition

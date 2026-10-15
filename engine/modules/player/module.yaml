@@ -3,3 +3,4 @@ namespaces:
   - player/movement
   - player/spectating
   - player/no_clip
+  - player/equipment

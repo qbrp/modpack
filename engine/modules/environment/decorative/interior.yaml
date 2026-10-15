@@ -24,3 +24,5 @@ items:
     display_name: Деревянный стеллаж
   shelf_3:
     display_name: Большой деревянный стеллаж
+  cot_bed:
+    display_name: Койка

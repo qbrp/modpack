@@ -4,49 +4,41 @@ use_templates:
 items:
   beret_bl:
     display_name: Чёрный берет
-    hat: true
+    outfit:
+      slot: slots/cap
   beret_rd:
     display_name: Красный берет
-    hat: true
+    outfit:
+      slot: slots/cap
   cap_m:
     display_name: Военная бейсболка
-    hat: true
+    outfit:
+      slot: slots/cap
   cap_s:
     display_name: Бейсболка
-    hat: true
+    outfit:
+      slot: slots/cap
   plastic_faceshield:
     display_name: Защитный экран для лица
     outfit:
-      slot: MASK
-      separated: true
-      parts: [ HEAD ]
+      slot: slots/mask
   aviator_eyewear:
     display_name: Очки авиаторы
     outfit:
-      slot: MASK
-      separated: true
-      parts: [HEAD]
-      eyes: true
+      slot: slots/mask
   ballistic_eyewear:
     display_name: Баллистические очки
     outfit:
-      slot: MASK
-      separated: true
-      parts: [ HEAD ]
-      eyes: true
+      slot: slots/mask
   vision_eyewear:
     display_name: Очки для зрения
     outfit:
-      slot: MASK
-      separated: true
-      parts: [ HEAD ]
-      eyes: true
+      slot: slots/mask
   nvg:
     display_name: Прибор ночного виденья
-    hat: true
+    outfit:
+      slot: slots/cap
   cws_bulletproof:
     display_name: Бронежилет CWS
     outfit:
-      slot: WEST
-      separated: true
-      parts: [BODY]
+      slot: slots/west

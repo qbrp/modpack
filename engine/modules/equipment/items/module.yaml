@@ -1,5 +1,6 @@
 namespace: equipment
 namespaces:
+  - equipment/slots
   - equipment/clothing
   - equipment/containers
   - equipment/radios

@@ -1,0 +1,11 @@
+namespace: slots
+equipment_slots:
+  cap:
+    part: head
+    name: Шапка
+  mask:
+    part: head
+    name: Маска
+  vest:
+    part: body
+    name: Жилет
