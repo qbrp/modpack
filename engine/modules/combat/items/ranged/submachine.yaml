@@ -14,4 +14,3 @@ items:
       modes: [SELECTOR, AUTO]
     sounds:
       gunfire: weapons/ranged/gunfire_mac-10
-      volume: 100

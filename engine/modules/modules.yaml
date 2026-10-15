@@ -2,6 +2,7 @@ enabled:
   - "default"
   - "combat"
   - "equipment"
+  - "equipment/mechanics"
   - "survival"
   - "environment"
   - "player"

@@ -5,6 +5,7 @@ namespaces:
   - combat/weapons
   - combat/weapons/ranged
   - combat/weapons/melee
+  - combat/weapons/melee/sword
   - combat/weapons/melee/baton
   - combat/weapons/melee/handmade
   - combat/weapons/melee/knife
