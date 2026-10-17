@@ -1,5 +1,7 @@
 namespace: bodies/untouched
 items:
+  rotten_hanging_down:
+    display_name: Гнилой свисающий труп
   pstfs_corpse_hanging_down:
     display_name: Свисающий труп солдата ВС Постфедерации
   pstfs_corpse_lying:

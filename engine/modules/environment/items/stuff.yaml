@@ -42,6 +42,8 @@ items:
     display_name: Телефон
   ciggarete:
     display_name: Сигарета
+    outfit:
+      slot: "@slots/gubi"
   ciggarete_box:
     display_name: Коробка сигарет
   cash:

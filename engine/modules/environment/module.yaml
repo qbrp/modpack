@@ -28,3 +28,6 @@ namespaces:
   - environment/sounds/signal
 depends:
   - default
+imports:
+  slots: equipment/slots
+  

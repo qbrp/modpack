@@ -21,7 +21,7 @@ local equip_verb = {
     id = "equip",
     name = "Экипировать",
     input_action = "base",
-    priority = 5,
+    priority = 15,
     create_command = function() return true end,
     command_type = equip_command
 }

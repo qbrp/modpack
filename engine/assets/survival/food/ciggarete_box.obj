@@ -1,6 +1,6 @@
 # Blender 4.5.10 LTS
 # www.blender.org
-mtllib cig_box.mtl
+mtllib ciggarete_box.mtl
 o cig_box
 v -0.087536 1.194835 0.040709
 v 0.087536 1.194835 0.040709

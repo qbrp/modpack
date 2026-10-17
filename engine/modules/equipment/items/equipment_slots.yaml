@@ -3,9 +3,24 @@ equipment_slots:
   cap:
     part: head
     name: Шапка
+  cap_special:
+    part: head
+    name: Оборудование для шапки
   mask:
     part: head
     name: Маска
-  vest:
+  west:
     part: body
     name: Жилет
+  pouches:
+    part: body
+    name: Подсумки
+  pouches_2:
+    part: body
+    name: Подсумки 2
+  gubi:
+    part: head
+    name: Губы
+  backpack:
+    part: body
+    name: Рюкзак
