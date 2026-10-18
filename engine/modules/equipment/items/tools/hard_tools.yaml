@@ -8,3 +8,5 @@ items:
     display_name: Монтировка
   power_hammer:
     display_name: Латунный отбойный молоток
+  fubar:
+    display_name: Универсальный монтировочный инструмент

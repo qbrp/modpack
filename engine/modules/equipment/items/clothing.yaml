@@ -37,8 +37,32 @@ items:
   nvg:
     display_name: Прибор ночного виденья
     outfit:
-      slot: slots/cap
+      slot: slots/mask
   cws_bulletproof:
     display_name: Бронежилет CWS
     outfit:
       slot: slots/west
+  cws_pouche:
+    display_name: Подсумки для бронежилета CWS
+    outfit:
+      slot: slots/pouches
+  helmet_glasses:
+    display_name: Баллистические очки для шлема
+    outfit:
+      slot: slots/mask
+  helmet_fast_mt:
+    display_name: Шлем
+    outfit:
+      slot: slots/cap
+  helmet_stuff_fast:
+    display_name: Оборудование для шлема
+    outfit:
+      slot: slots/cap_special
+  supply_rig:
+    display_name: Разгрузочный жилет
+    outfit:
+      slot: slots/pouches_2
+  container_carrier:
+    display_name: Грузовая рама с контейнером
+    outfit:
+      slot: slots/backpack

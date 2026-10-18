@@ -26,3 +26,5 @@ items:
     display_name: Большой деревянный стеллаж
   cot_bed:
     display_name: Койка
+  door_blocker:
+    display_name: Дверной затвор

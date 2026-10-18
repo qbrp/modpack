@@ -10,3 +10,5 @@ items:
     display_name: БЛЯТЬ
   uebanity:
     display_name: Верити
+    outfit:
+      slot: "@slots/cap"
