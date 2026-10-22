@@ -18,7 +18,9 @@ return declarations.multiple { ---@type SystemDraft[]
         ---@param input PlayerInputComponent
         ---@param attributes PlayerAttributesComponent
         ---@param customs PlayerCustomAttributesComponent
-        tick = function(player, _, movement, mode, input, attributes, customs)
+        tick = function(player, entity, movement, mode, input, attributes, customs)
+            local previous_speed = attributes.speed
+            local previous_jump_strength = attributes.jump_strength
             local primary_attributes = settings.get_primary_attributes(mode.mode)
             local default_speed = customs.speed or primary_attributes.speed
 
@@ -39,6 +41,10 @@ return declarations.multiple { ---@type SystemDraft[]
 
             if mode.is_spectator then
                 attributes.speed = default_speed
+                if attributes.speed ~= previous_speed
+                    or attributes.jump_strength ~= previous_jump_strength then
+                    entity:mark_updated(components.player_attributes)
+                end
                 return
             end
 
@@ -57,6 +63,10 @@ return declarations.multiple { ---@type SystemDraft[]
             )
 
             attributes.speed = math.lerp(attributes.speed, target, 0.2)
+            if attributes.speed ~= previous_speed
+                or attributes.jump_strength ~= previous_jump_strength then
+                entity:mark_updated(components.player_attributes)
+            end
         end
     },
     {
@@ -74,7 +84,10 @@ return declarations.multiple { ---@type SystemDraft[]
             if mode.is_spectator then return end
 
             if mode.is_game_master then
-                movement.stamina = 1
+                if movement.stamina ~= 1 then
+                    movement.stamina = 1
+                    entity:mark_updated(components.movement_status)
+                end
                 return
             end
 
@@ -91,7 +104,7 @@ return declarations.multiple { ---@type SystemDraft[]
 
             local jump_consumption = jumped and settings.jump_stamina_consume or 0
 
-            movement.stamina = math.clamp(
+            local stamina = math.clamp(
                 movement.stamina
                     + settings.stamina_regen
                     - movement_consumption
@@ -99,6 +112,10 @@ return declarations.multiple { ---@type SystemDraft[]
                 0,
                 1
             )
+            if stamina ~= movement.stamina then
+                movement.stamina = stamina
+                entity:mark_updated(components.movement_status)
+            end
         end
     }
 }
