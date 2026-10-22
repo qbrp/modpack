@@ -1,0 +1,44 @@
+namespace: weapons/ranged/magazines
+items:
+  akm_magazine:
+    display_name: Магазин АКМ
+    magazine:
+      ammunition: "@ammo/7_62x39bullet"
+      initial: 30
+      capacity: 30
+  stanag30:
+    display_name: Магазин STANAG 30
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 30
+      capacity: 30
+  stanag20:
+    display_name: Магазин STANAG 20
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 30
+      capacity: 30
+  stanag60:
+    display_name: Магазин STANAG 60
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 60
+      capacity: 60
+  stanag100:
+    display_name: Магазин STANAG 100
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 100
+      capacity: 100
+  stanag183:
+    display_name: Магазин STANAG Bananan
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 183
+      capacity: 183
+  stanag451:
+    display_name: Магазин STANAG Spiral
+    magazine:
+      ammunition: "@ammo/223_round"
+      initial: 451
+      capacity: 451

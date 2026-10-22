@@ -2,17 +2,11 @@ namespace: weapons/ranged/assaults
 use_templates:
   items: /combat/weapons/ranged
 items:
-  akm_magazine:
-    display_name: Магазин АКМ
-    magazine:
-      ammunition: "@ammo/5_45x39bullet"
-      initial: 30
-      capacity: 30
   ak74n:
     display_name: АК74Н
     tooltip: Автомат Шмайсера, но новее
     barrel:
-      bullets: 30
+      bullets: 1
       ammunition: "@ammo/5_45x39bullet"
     gun:
       smoke: [0.15, -0.1, 0.5]
@@ -35,12 +29,23 @@ items:
     display_name: AR-15
     tooltip: Автомат Кольтсера
     barrel:
-      bullets: 30
+      bullets: 1
       ammunition: "@ammo/223_round"
     gun:
       smoke: [0.15, -0.1, 0.7]
       rate: 2
       modes: [SELECTOR, SINGLE]
+    sounds:
+      gunfire: weapons/ranged/assaults/gunfire_akm
+  arsa1:
+    display_name: ARS-A1
+    tooltip: Унифицированное оружие Конфедерации... и не только.
+    barrel:
+      bullets: 1
+      ammunition: "@ammo/223_round"
+    gun:
+      smoke: [0.15, -0.1, 0.7]
+      rate: 3
     sounds:
       gunfire: weapons/ranged/assaults/gunfire_akm
 sound_events:

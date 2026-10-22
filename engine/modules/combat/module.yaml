@@ -18,6 +18,7 @@ namespaces:
   - combat/weapons/ranged/pistols
   - combat/weapons/ranged/sniper
   - combat/weapons/ranged/submachine
+  - combat/weapons/ranged/magazines
 depends:
   - default
 imports:

@@ -66,3 +66,11 @@ items:
     display_name: Грузовая рама с контейнером
     outfit:
       slot: slots/backpack
+  security_vest_black:
+    display_name: Чёрный жилет охраны
+    outfit:
+      slot: slots/west
+  gsh01:
+    display_name: Гарнитура специальная шумозащитная-01
+    outfit:
+      slot: slots/cap_special

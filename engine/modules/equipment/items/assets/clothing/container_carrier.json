@@ -1,0 +1,32 @@
+{
+  "obj": true,
+  "model": "~/container_carrier",
+  "flip_v": true,
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0.25133657, -4.9397125, -4.9100246],
+      "rotation": [252.73962, 70.653564, -183.86081],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0.25133657, -4.9397125, -4.9100246],
+      "rotation": [252.73962, 70.653564, -183.86081],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_righthand": { "scale": [1.0, 1.0, 1.0] },
+    "firstperson_lefthand": { "scale": [1.0, 1.0, 1.0] },
+    "head": { "scale": [1.0, 1.0, 1.0] },
+    "gui": {
+      "translation": [0.25, 0.0, 0.0],
+      "rotation": [35.0, 135.0, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "ground": { "scale": [1.0, 1.0, 1.0] },
+    "fixed": { "scale": [1.0, 1.0, 1.0] },
+    "outfit": {
+      "translation": [0.096, 5.312, -4.192],
+      "rotation": [0.0, -180.0, -180.0],
+      "scale": [1.002, 1.0, 1.0]
+    }
+  }
+}

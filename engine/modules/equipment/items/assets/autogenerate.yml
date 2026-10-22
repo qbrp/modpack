@@ -1,0 +1,3 @@
+autogen:
+  - texture: "tools/hammer"
+    type: "item/handheld"
