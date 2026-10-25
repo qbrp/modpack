@@ -19,7 +19,6 @@ namespaces:
   - environment/decorative/sign
   - environment/decorative/trash
   - environment/funny
-  - environment/meta
   - environment/props
   - environment/sounds/door
   - environment/sounds/intercom

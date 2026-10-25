@@ -1,0 +1,43 @@
+{
+  "obj": true,
+  "model": "~/wrist_watch",
+  "rotate_left_side": true,
+  "flip_v": true,
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0.657177, -2.2060928, -1.1620512],
+      "rotation": [0.2935791, -17.67633, -0.050476074],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0.657177, -2.2060928, -1.1620512],
+      "rotation": [-5.106, 150.383, -0.050476074],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_righthand": {
+      "translation": [0.37825593, 3.3895416, 0.45514202],
+      "rotation": [0.0, 39.726685, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_lefthand": {
+      "translation": [0.37825593, 3.3895416, 0.45514202],
+      "rotation": [0.0, -142.213, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "gui": {
+      "translation": [0.42855835, 0.0, 0.0],
+      "rotation": [30.0, 135.0, 0.0],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "fixed": {
+      "translation": [-8.4381696e-4, 0.0, -0.052973747],
+      "rotation": [-90.0, 0.0, -4.371887],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "outfit": {
+      "translation": [0.9597626, 6.845006, -9.918213e-5],
+      "rotation": [0.0, -180.0, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    }
+  }
+}

@@ -6,7 +6,11 @@ equipment_slots:
   cap_special:
     part: head
     name: Оборудование для шапки
+  headphones:
+    part: head
+    name: Наушники
   mask:
+    follow_eye_height: true
     part: head
     name: Маска
   west:
@@ -17,10 +21,37 @@ equipment_slots:
     name: Подсумки
   pouches_2:
     part: body
-    name: Подсумки 2
+    name: Дополнительные подсумки
   gubi:
     part: head
     name: Губы
   backpack:
     part: body
     name: Рюкзак
+  watch_l:
+    part: left_palm
+    name: Левые наручные часы
+  watch_r:
+    part: right_palm
+    name: Правые наручные часы
+  knee_l:
+    part: left_feet
+    name: Левый наколенник
+  knee_r:
+    part: right_feet
+    name: Правый наколенник
+  elbow_l:
+    part: left_palm
+    name: Левый налокотник
+  elbow_r:
+    part: right_palm
+    name: Правый налокотник
+  glove_l: 
+    part: left_palm
+    name: Левая перчатка
+  glove_r: 
+    part: right_palm
+    name: Правая перчатка
+  holster:
+    part: right_leg
+    name: Кобура

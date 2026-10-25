@@ -1,0 +1,6 @@
+namespace: meta
+depends:
+  - default
+imports:
+  slots: equipment/slots
+  

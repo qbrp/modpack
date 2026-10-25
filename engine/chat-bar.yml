@@ -26,4 +26,4 @@ sections:
       - "admin"
   - name: Система
     channels:
-        - "system"
+      - "system"

@@ -1,0 +1,26 @@
+namespace: utensil
+items:
+  fork:
+    display_name: Вилка
+  spoon:
+    display_name: Ложка
+  knife:
+    display_name: Столовый нож
+  kitchen_knife_big:
+    display_name: Кухонный нож
+  kitchen_knife_long:
+    display_name: Длинный кухонный нож
+  bowl_wooden:
+    display_name: Миска
+  bowl_ceramic:
+    display_name: Миска
+  plate:
+    display_name: Тарелка
+  ladle:
+    display_name: Половник
+  pot:
+    display_name: Кастрюля
+  cup_steel:
+    display_name: Кружка
+  cup_steel_confederation:
+    display_name: Кружка

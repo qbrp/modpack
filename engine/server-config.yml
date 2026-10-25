@@ -69,7 +69,7 @@ chat:
       distance: 14
       propagate:
         channel: gm_intent
-        text: "{text} <dark_gray><insert:/sourcemessage {author_pos} self 1 do >(/do)</insert>"
+        text: "{text} <dark_gray><insert:/speech {author_pos} self 1 do >(/do)</insert>"
     me:
       name: <green>Действие
       format: "{author_name} {yellow_star} {text}"
@@ -139,7 +139,7 @@ chat:
     lnrp_author_username: "<#787899>{author_username}</#787899>"
     lnrp_separator: "<#c9c9ff>▸</#c9c9ff>"
     lnrp_text: "<#a0a0cc>{text}</#a0a0cc>"
-    l: "<#c9c9ff><bold>ɢ</bold></#c9c9ff>"
+    l: "<#c9c9ff><bold>ʟ</bold></#c9c9ff>"
 
     separator_color: "gray"
     color: "white"
@@ -207,11 +207,12 @@ chat:
 
 player:
   volume:
-    min: 0.3
+    min: 0.2
     base: 0.5
     max: 1.2
   damage: true
   spectate_on_join: false
+  adventure: true
 
 vocal:
   # При каком значении усталости возможно сорвать голос

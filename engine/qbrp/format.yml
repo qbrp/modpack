@@ -9,3 +9,5 @@ regex:
       value: "<aqua><bold>—</bold> {match} <bold>—</bold></aqua>"
     - exp: '--'
       value: '—'
+    - exp: '^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$'
+      value: "<click:open_url:'{match}'><aqua><underlined>{match}</underlined></aqua></click>"

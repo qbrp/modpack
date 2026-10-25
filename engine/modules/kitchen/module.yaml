@@ -1,0 +1,5 @@
+namespace: kitchen
+namespaces:
+  - kitchen/meat
+  - kitchen/military
+  - kitchen/utensil

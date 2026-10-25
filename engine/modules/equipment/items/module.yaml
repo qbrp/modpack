@@ -2,6 +2,9 @@ namespace: equipment
 namespaces:
   - equipment/slots
   - equipment/clothing
+  - equipment/military
+  - equipment/glasses
+  - equipment/civil
   - equipment/containers
   - equipment/radios
   - equipment/progression

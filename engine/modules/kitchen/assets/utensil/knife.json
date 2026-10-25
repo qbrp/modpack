@@ -1,0 +1,34 @@
+{
+  "obj": true,
+  "model": "~/knife",
+  "flip_v": true,
+  "flat_light": true,
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0.009489059, 0.606452, -0.22716165],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0.009489059, 0.606452, -0.22716165],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "firstperson_righthand": {
+      "translation": [1.8054323, 3.788246, 2.1812105],
+      "scale": [1.5, 1.5, 1.5]
+    },
+    "firstperson_lefthand": {
+      "translation": [1.8054323, 3.788246, 2.1812105],
+      "scale": [1.5, 1.5, 1.5]
+    },
+    "gui": {
+      "translation": [0.0, -0.27496338, 0.08868408],
+      "rotation": [30.0, -135.0, 90.0],
+      "scale": [3.0, 3.0, 3.0]
+    },
+    "fixed": {
+      "translation": [3.3112193e-4, -1.9500828, 0.35596752],
+      "rotation": [0.0, -90.0, 0.0],
+      "scale": [3.5, 3.5, 3.5]
+    }
+  }
+}

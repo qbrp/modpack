@@ -1,0 +1,79 @@
+namespace: military
+items:
+  nvg:
+    display_name: Прибор ночного виденья
+    outfit:
+      slot: slots/mask
+  nvg57:
+    display_name: Импровизированный прибор ночного виденья
+    outfit:
+      slot: slots/cap_special
+  plate_bodyarmor:
+    display_name: Бронежилет
+    outfit:
+      slot: slots/west
+  soft_bodyarmor:
+    display_name: Бронежилет
+    outfit:
+      slot: slots/west
+  soft_bodyarmor_ruined:
+    display_name: Поврежденный бронежилет
+    outfit:
+      slot: slots/west
+  bodyarmor_pouches:
+    display_name: Подсумки для бронежилета CWS
+    outfit:
+      slot: slots/pouches
+  helmet_glasses:
+    display_name: Баллистические очки для шлема
+    outfit:
+      slot: slots/mask
+  helmet_fast_mt:
+    display_name: Шлем
+    outfit:
+      slot: slots/cap
+  helmet_stuff_fast:
+    display_name: Оборудование для шлема
+    outfit:
+      slot: slots/cap_special
+  supply_rig:
+    display_name: Разгрузочный жилет
+    outfit:
+      slot: slots/pouches_2
+  container_carrier:
+    display_name: Грузовая рама с контейнером
+    outfit:
+      slot: slots/backpack
+  security_vest_black:
+    display_name: Чёрный жилет охраны
+    outfit:
+      slot: slots/west
+  gsh01:
+    display_name: Гарнитура специальная шумозащитная-01
+    outfit:
+      slot: slots/cap_special
+  knee_pad:
+    display_name: Наколенник
+    outfit:
+      sided: true
+      slot_right: slots/knee_r
+      slot_left: slots/knee_l
+  elbow_pad:
+    display_name: Налокотник
+    outfit:
+      sided: true
+      slot_right: slots/elbow_r
+      slot_left: slots/elbow_l
+  glove:
+    display_name: Перчатка
+    outfit:
+      sided: true
+      slot_right: slots/glove_r
+      slot_left: slots/glove_l
+  hip_holster:
+    display_name: Кобура
+    outfit:
+      slot: slots/holster
+
+
+    

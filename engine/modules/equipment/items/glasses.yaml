@@ -1,0 +1,18 @@
+namespace: glasses
+items:
+  aviator:
+    display_name: Очки авиаторы
+    outfit:
+      slot: slots/mask
+  ballistic:
+    display_name: Баллистические очки
+    outfit:
+      slot: slots/mask
+  vision:
+    display_name: Очки для зрения
+    outfit:
+      slot: slots/mask
+  round:
+    display_name: Очки Летова
+    outfit:
+      slot: slots/mask

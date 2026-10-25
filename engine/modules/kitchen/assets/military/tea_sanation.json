@@ -1,0 +1,35 @@
+{
+  "obj": true,
+  "model": "~/tea_sanation",
+  "flat_light": true,
+  "flip_v": true,
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [3.8146973e-6, -0.69250584, -0.74204946],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "thirdperson_lefthand": {
+      "translation": [3.8146973e-6, -0.69250584, -0.74204946],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_righthand": {
+      "translation": [0.3941288, 3.9344711, 2.763779],
+      "scale": [0.995, 1.0, 1.0]
+    },
+    "firstperson_lefthand": {
+      "translation": [0.3941288, 3.9344711, 2.763779],
+      "rotation": [0.0, -180.0, 0.0],
+      "scale": [0.995, 1.0, 1.0]
+    },
+    "gui": {
+      "translation": [0.2000122, 0.2000122, 0.0],
+      "rotation": [35.0, 135.0, 0.0],
+      "scale": [3.0, 3.0, 3.0]
+    },
+    "fixed": {
+      "translation": [0.0, -2.8014183e-6, 0.41168508],
+      "rotation": [-180.0, -90.0, -180.0],
+      "scale": [1.0, 2.0, 2.0]
+    }
+  }
+}

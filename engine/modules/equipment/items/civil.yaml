@@ -1,0 +1,12 @@
+namespace: civil
+items:
+  wrist_watch:
+    display_name: Наручные часы
+    outfit:
+      sided: true
+      slot_right: slots/watch_r
+      slot_left: slots/watch_l
+  headphones:
+    display_name: Наушники
+    outfit:
+      slot: slots/headphones

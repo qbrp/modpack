@@ -1,0 +1,18 @@
+namespace: military
+items:
+  tea_confederation:
+    display_name: Чай сухпайка Конфедерации
+  tea_sanation:
+    display_name: Чай сухпайка Санации
+  sugar_packet:
+    display_name: Пакетик сахара
+  teabag:
+    display_name: Чай
+  buckwheat_confederation:
+    display_name: Гречка
+  buckwheat_sanation:
+    display_name: Гречка
+  concentrate_brick:
+    display_name: Брикет концентрата
+  almond_cube:
+    display_name: Миндальный кубик

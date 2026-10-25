@@ -17,4 +17,6 @@ engine.reload_script = function (module)
     require(module)
 end
 
-return require("core.composer.contents").build(compilation)
+local migration_plugin = require("qbrp.migrations")
+
+return require("core.composer.contents").build(compilation, { migration_plugin })

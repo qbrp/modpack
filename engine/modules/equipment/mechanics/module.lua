@@ -1,13 +1,23 @@
 local declarations = require("core.composer.declarations")
 local components = require("core.composer.components")
 
----@class OutfitComponent
+---@class SidedOutfitComponent : Component
+---@field slot_right Id
+---@field slot_left Id
+---@type ComponentTypeHolder<SidedOutfitComponent>
+local sided_outfit = components.definition {
+    id = "sided_outfit",
+    persistent = true,
+    replicating = true
+}
+
+---@class OutfitComponent : Component
 ---@field slot Id
 ---@type ComponentTypeHolder<OutfitComponent>
 local outfit = components.definition {
     id = "outfit",
     persistent = true,
-    replicating = true
+    replicating = true,
 }
 
 ---@type ComponentTypeDefinition<boolean>
@@ -26,20 +36,39 @@ local equip_verb = {
     command_type = equip_command
 }
 
+---@param id Id
+---@return EquipmentSlot?
+local function resolve_equipment_slot(id)
+    return engine.contents.equipment_slots[id]
+end
+
 return declarations.various {
     components = {
         equip_command = equip_command,
-        outfit = outfit
+        outfit = outfit,
+        arm_outfit = sided_outfit
     },
     ---@type EventListeners[]
     listeners = {
         {
             show_item_tooltip = function(context)
                 local item = context.item
+                if not item:has_component(components.equippable) then return end
+
                 local outfit = item:get_component(outfit)
-                local equippable = item:get_component(components.equippable)
-                if outfit and equippable then
-                    return { "<aqua>Экипируемый" }
+                local sided_outfit = item:get_component(sided_outfit)
+
+                if outfit then
+                    local slot = resolve_equipment_slot(outfit.slot) or {}
+                    return { "<gray>Одевается как <aqua>" .. string.lowercase_first(slot.name or slot.id.full) }
+                elseif sided_outfit then
+                    local slot_r = resolve_equipment_slot(sided_outfit.slot_right) or {}
+                    local slot_l = resolve_equipment_slot(sided_outfit.slot_left) or {}
+                    return {
+                        "<gray>Одевается как:" ,
+                        "<gray>- <aqua>" .. (slot_r.name or slot_r.id.full) .. " <gray>(держа в правой руке)",
+                        "<gray>- <aqua>" .. (slot_l.name or slot_l.id.full) .. " <gray>(держа в левой руке)"
+                    }
                 end
             end
         }
@@ -60,10 +89,11 @@ return declarations.various {
                         local equipment = player:get_component(components.equipment)
                         if equipment then
                             local variants = {}
-                            for key, value in pairs(equipment.slots:to_table()) do
+                            for key, _ in pairs(equipment.slots:to_table()) do
+                                local slot = resolve_equipment_slot(key) or {}
                                 table.insert(
                                     variants,
-                                    { id = key.loc, value = key }
+                                    { id = slot.name or key.loc, value = slot }
                                 )
                             end
                             return variants
@@ -78,8 +108,8 @@ return declarations.various {
                 if not equipment then return end
                 local world = context.world
 
-                local unequip_slot = assert(context.inputs.slot)
-                local unequipped_item = equipment.slots:remove(unequip_slot)
+                local unequip_slot = assert(context.inputs.slot) ---@type EquipmentSlot
+                local unequipped_item = equipment.slots:remove(unequip_slot.id)
                 player:mark_updated(components.equipment)
 
                 if unequipped_item then
@@ -88,7 +118,7 @@ return declarations.various {
                     end
                     local item_name = unequipped_item:get_component(components.item_name) or { text = "Предмет" }
                     player:narration {
-                        message = "Снят " .. item_name.text,
+                        message = "<aqua>Снят " .. item_name.text,
                         time = 40,
                     }
                 end
@@ -129,30 +159,43 @@ return declarations.various {
 
                 local equippable = item:get_component(components.equippable)
                 local outfit = item:get_component(outfit)
+                local arm_outfit = item:get_component(sided_outfit)
                 local player_component = player_entity:get_component(components.player)
-                if not equippable or not outfit or not player_component then return end
+                if not equippable or (not outfit and not arm_outfit) or not player_component then return end
 
                 local player = player_component.object
                 local equipment = assert(player_entity:get_component(components.equipment))
                 local slots = equipment.slots
-                local slot = outfit.slot
 
-                if slots[slot] then
+                local slot_id
+                if outfit then
+                    slot_id = outfit.slot
+                elseif arm_outfit then
+                    if hand.side == "main" then
+                        slot_id = arm_outfit.slot_right
+                    else
+                        slot_id = arm_outfit.slot_left
+                    end
+                end
+                local slot = resolve_equipment_slot(slot_id) or {}
+
+                if slots[slot_id] then
                     player:narration {
-                        message = "На вас уже надета экипировка под слотом " .. slot.loc,
+                        message = "<gold>На вас уже надета экипировка под слотом " .. slot.name or slot_id.loc,
                         time = 70
                     }
                     return
                 end
 
-                slots[slot] = item
+                slots[slot_id] = item
                 item:set_component(components.decrement, 1)
 
                 local item_name = item:get_component(components.item_name) or { text = "Предмет" }
                 player:narration {
-                    message = "Надет " .. item_name.text,
+                    message = "<aqua>Надет " .. item_name.text,
                     time = 60,
                 }
+
                 player_entity:mark_updated(components.equipment)
             end
         }
@@ -165,20 +208,40 @@ return declarations.various {
                 if not outfit_document then
                     return
                 end
-                local slot_id, error = context.module:resolve_id(outfit_document.slot)
-                if error then
-                    context.report_error(error)
+
+                local function resolve_id_catching(slot_id)
+                    local slot_id, error = context.module:resolve_id(slot_id)
+                    if error then context.report_error(error) end
+                    return slot_id
                 end
-                outfit_document.slot = slot_id
-                table.insert(components, { value = outfit_document, type = outfit })
+
+                if outfit_document.sided then
+                    local right_slot_id = resolve_id_catching(outfit_document.slot_right)
+                    local left_slot_id = resolve_id_catching(outfit_document.slot_left)
+                    if not right_slot_id or not left_slot_id then return end
+
+                    local arm_outfit_component = {
+                        slot_right = right_slot_id,
+                        slot_left = left_slot_id
+                    }
+
+                    table.insert(components, { value = arm_outfit_component, type = sided_outfit })
+                else
+                    local slot_id = resolve_id_catching(outfit_document.slot)
+                    if not slot_id then return end
+
+                    local outfit_component = { slot = slot_id }
+                    table.insert(components, { value = outfit_component, type = outfit })
+                end
+
                 table.insert(components, { value = true, type = equippable })
             end,
             validate = function(context, prefab, components)
-                local outfit = components[outfit.id]
+                local outfit = components[outfit.id] or components[sided_outfit.id]
                 if not outfit then return end
                 if prefab.max_count > 1 then
                     context.report_error(
-                        "Наличие компонента Outfit требует значения максимального размера стака в 1 ед.")
+                        "Наличие компонента одежды требует значения максимального размера стака в 1 ед.")
                 end
             end
         }
