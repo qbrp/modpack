@@ -1,0 +1,6 @@
+namespace: boxes
+items:
+  45_acp:
+    display_name: Коробка патронов .45 ACP
+  223_cws:
+    display_name: Коробка патронов .223 CWS

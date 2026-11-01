@@ -1,0 +1,10 @@
+namespace: masks
+items:
+  cwm_mask_black:
+    display_name: Маска US CWM
+    outfit:
+      slot: slots/mask
+  cwm_mask_yellow:
+    display_name: Маска US CWM
+    outfit:
+      slot: slots/mask

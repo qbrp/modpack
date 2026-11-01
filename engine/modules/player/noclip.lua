@@ -17,6 +17,7 @@ return declartions.various {
             id = "noclip",
             execute = function (context)
                 local player = context.actor.player
+                if not player then return end
                 local enabled = player:get_component(components.enabled)
                 if not enabled then
                     player:set_component(components.enabled, true)

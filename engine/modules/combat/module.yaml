@@ -3,13 +3,14 @@ namespaces:
   - combat/ammunition
   - combat/explosives
   - combat/weapons
-  - combat/weapons/ranged
+  - combat/boxes
   - combat/weapons/melee
   - combat/weapons/melee/sword
   - combat/weapons/melee/baton
   - combat/weapons/melee/handmade
   - combat/weapons/melee/knife
   - combat/weapons/melee/machete
+  - combat/weapons/ranged
   - combat/weapons/ranged/assaults
   - combat/weapons/ranged/grenade_launcher
   - combat/weapons/ranged/lmg
@@ -21,5 +22,7 @@ namespaces:
   - combat/weapons/ranged/magazines
 depends:
   - default
+  - packages
 imports:
   ammo: combat/ammunition
+  ammo_boxes: packages

@@ -2,17 +2,25 @@ namespace: military
 items:
   tea_confederation:
     display_name: Чай сухпайка Конфедерации
+    mass: 0.01
   tea_sanation:
     display_name: Чай сухпайка Санации
+    mass: 0.01
   sugar_packet:
     display_name: Пакетик сахара
+    mass: 0.01
   teabag:
     display_name: Чай
+    mass: 0.01
   buckwheat_confederation:
     display_name: Гречка
+    mass: 1
   buckwheat_sanation:
     display_name: Гречка
+    mass: 1
   concentrate_brick:
     display_name: Брикет концентрата
+    mass: 0.01
   almond_cube:
     display_name: Миндальный кубик
+    mass: 0.1

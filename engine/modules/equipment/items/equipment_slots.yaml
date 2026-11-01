@@ -2,7 +2,7 @@ namespace: slots
 equipment_slots:
   cap:
     part: head
-    name: Шапка
+    name: Головной убор
   cap_special:
     part: head
     name: Оборудование для шапки

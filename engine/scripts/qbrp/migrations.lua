@@ -14,6 +14,17 @@ end
 
 ---@param namespace string
 ---@param item_id string
+---@param new_namespace string?
+---@return IdMigration
+local function from_survival_to(namespace, item_id, new_namespace)
+    return {
+        from = id.new("survival/" .. namespace, item_id),
+        to = id.new(new_namespace or namespace, item_id)
+    }
+end
+
+---@param namespace string
+---@param item_id string
 ---@param new_item_id string?
 ---@return IdMigration
 local function equipment_from_clothing_to(namespace, item_id, new_item_id)
@@ -33,22 +44,32 @@ return {
             from_environment_to("meta", "error"),
             from_environment_to("meta", "blyat"),
             from_environment_to("meta", "uebanity"),
-            
-            from_environment_to("food", "can_beans", "kitchen"),
-            from_environment_to("food", "can_meat", "kitchen"),
-            from_environment_to("food", "can_fish", "kitchen"),
-            from_environment_to("food", "can_spam", "kitchen"),
-            from_environment_to("food", "can_water", "kitchen"),
-            from_environment_to("food", "energy_drink", "kitchen"),
-            from_environment_to("food", "bottle", "kitchen"),
-            from_environment_to("food", "concentrate", "kitchen"),
-            from_environment_to("food", "beer", "kitchen"),
 
-            from_environment_to("food/meat", "piece_rotten", "kitchen/meat"),
-            from_environment_to("food/meat", "piece_raw", "kitchen/meat"),
-            from_environment_to("food/meat", "piece_cooked", "kitchen/meat"),
-            from_environment_to("food/meat", "pile_rotten_guts", "kitchen/meat"),
-            from_environment_to("food/meat", "pile_raw_guts", "kitchen/meat"),
+            {
+                from = id.parse("environment/decorative/sign/flag_holder"),
+                to = id.parse("environment/decorative/sign/flag_holder_sanation")
+            },
+            
+            from_survival_to("food", "can_beans", "kitchen"),
+            from_survival_to("food", "can_meat", "kitchen"),
+            from_survival_to("food", "can_fish", "kitchen"),
+            from_survival_to("food", "can_spam", "kitchen"),
+            from_survival_to("food", "can_water", "kitchen"),
+            from_survival_to("food", "energy_drink", "kitchen"),
+            from_survival_to("food", "bottle", "kitchen"),
+            from_survival_to("food", "concentrate", "kitchen"),
+            from_survival_to("food", "beer", "kitchen"),
+
+            from_survival_to("food/meat", "piece_rotten", "kitchen/meat"),
+            from_survival_to("food/meat", "piece_raw", "kitchen/meat"),
+            from_survival_to("food/meat", "piece_cooked", "kitchen/meat"),
+            from_survival_to("food/meat", "pile_rotten_guts", "kitchen/meat"),
+            from_survival_to("food/meat", "pile_raw_guts", "kitchen/meat"),
+
+            {
+                from = id.parse("kitchen/concentrate"),
+                to = id.parse("kitchen/concentrates/legacy")
+            },
 
             equipment_from_clothing_to("glasses", "aviator_eyewear", "aviator"),
             equipment_from_clothing_to("glasses", "ballistic_eyewear", "ballistic"),

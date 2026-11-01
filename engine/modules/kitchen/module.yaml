@@ -3,3 +3,8 @@ namespaces:
   - kitchen/meat
   - kitchen/military
   - kitchen/utensil
+  - kitchen/concentrates
+depends:
+  - packages
+imports:
+  zips: packages/zips

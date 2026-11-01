@@ -1,4 +1,5 @@
 enabled:
+  - "packages"
   - "default"
   - "combat"
   - "equipment"
@@ -10,3 +11,4 @@ enabled:
   - "player"
   - "devtools"
   - "rp"
+  - "tooltips"

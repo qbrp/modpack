@@ -25,9 +25,7 @@ items:
     mass: 1
   plate_buckwheat:
     display_name: Тарелка гречки
-  concentrate:
-    display_name: Концентрат пищевой
-    tooltip: Зелёный, 30 проба.
-    mass: 0.25
+    mass: 0.4
   sugar_cube:
     display_name: Кубик сахара
+    mass: 0.005

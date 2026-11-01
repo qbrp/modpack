@@ -4,6 +4,8 @@ items:
     display_name: Оцинкованное ведро с водой
   bucket_empty:
     display_name: Оцинкованное ведро
+    outfit:
+      slot: slots/cap
   mop:
     display_name: Швабра
   rag:

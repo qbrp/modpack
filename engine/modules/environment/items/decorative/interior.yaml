@@ -26,3 +26,11 @@ items:
     display_name: Большой деревянный стеллаж
   cot_bed:
     display_name: Койка
+  matress:
+    display_name: Матрас
+  matress_dirty:
+    display_name: Грязный матрас
+  pillow:
+    display_name: Подушка
+  pillow_clean:
+    display_name: Подушка

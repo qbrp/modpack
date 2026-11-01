@@ -2,25 +2,37 @@ namespace: utensil
 items:
   fork:
     display_name: Вилка
+    mass: 0.05
   spoon:
     display_name: Ложка
+    mass: 0.05
   knife:
     display_name: Столовый нож
+    mass: 0.05
   kitchen_knife_big:
     display_name: Кухонный нож
+    mass: 0.15
   kitchen_knife_long:
     display_name: Длинный кухонный нож
+    mass: 0.35
   bowl_wooden:
     display_name: Миска
+    mass: 0.3
   bowl_ceramic:
     display_name: Миска
+    mass: 0.5
   plate:
     display_name: Тарелка
+    mass: 0.2
   ladle:
     display_name: Половник
+    mass: 0.3
   pot:
     display_name: Кастрюля
+    mass: 1.5
   cup_steel:
     display_name: Кружка
+    mass: 0.6
   cup_steel_confederation:
     display_name: Кружка
+    mass: 0.6

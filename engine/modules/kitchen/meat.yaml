@@ -11,7 +11,7 @@ items:
     mass: 1
   pile_rotten_guts:
     display_name: Куча гнилого мяса с кишками
-    mass: 2
+    mass: 2.3
   pile_raw_guts:
     display_name: Куча сырого мяса с кишками
-    mass: 2
+    mass: 2.3

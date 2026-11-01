@@ -1,0 +1,9 @@
+namespace: concentrates
+items:
+  legacy:
+    display_name: Концентрат пищевой
+    tooltip: Зелёный, 30 проба.
+    mass: 0.5
+  1kg_confederation:
+    display_name: Концентрат пищевой Конфедерации (1 кг)
+    mass: 1

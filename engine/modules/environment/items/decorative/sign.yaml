@@ -2,5 +2,7 @@ namespace: decorative/sign
 items:
   sign_radioactive:
     display_name: Табличка "Радиоактивность"
-  flag_holder:
+  flag_holder_sanation:
     display_name: Держатель флага "Санация"
+  flag_holder_confederation:
+    display_name: Держатель флага "Конфедерация"

@@ -1,6 +1,6 @@
 # Blender 4.5.14 LTS
 # www.blender.org
-mtllib ~/flag_holder
+mtllib #base
 o flag_holder
 v 0.000000 0.000000 -0.410829
 v 0.027787 0.000000 -0.426872

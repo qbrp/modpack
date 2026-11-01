@@ -3,11 +3,17 @@ items:
     display_name: Коллекционная фигурка qbrp "MrGlesgorv"
   coil_aqua:
     display_name: Спид-койл
+    held_attributes:
+      speed: "*1.7"
   error:
     display_name: ERROR
   blyat:
     display_name: БЛЯТЬ
   uebanity:
     display_name: Верити
+    outfit:
+      slot: "@slots/cap"
+  utah_teapot:
+    display_name: Чайник из Юты
     outfit:
       slot: "@slots/cap"

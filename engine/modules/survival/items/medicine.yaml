@@ -1,9 +1,13 @@
 namespace: medicine
 items:
-  army_bandage:
-    display_name: Армейский бинт
-  bandage:
+  bandage_basic:
     display_name: Бинт
+  bandage_roll:
+    display_name: Бинт
+  bandage_fixator:
+    display_name: Бинт с фиксатором
+  bandage_military:
+    display_name: Армейский бинт
   cat_tourniquet:
     display_name: Турникет для боевого применения
   esmarch_tourniquet:
