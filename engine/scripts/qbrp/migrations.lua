@@ -49,6 +49,11 @@ return {
                 from = id.parse("environment/decorative/sign/flag_holder"),
                 to = id.parse("environment/decorative/sign/flag_holder_sanation")
             },
+
+            {
+                from = id.parse("environment/props/cash"),
+                to = id.parse("environment/money/cash")
+            },
             
             from_survival_to("food", "can_beans", "kitchen"),
             from_survival_to("food", "can_meat", "kitchen"),

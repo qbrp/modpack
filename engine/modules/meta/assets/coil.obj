@@ -1,6 +1,6 @@
 # Blender 5.1.2
 # www.blender.org
-mtllib ~/coil_aqua
+mtllib #base
 o Cube
 v -0.354962 -1.470272 0.003956
 v -0.324751 -1.500000 0.005853

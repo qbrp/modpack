@@ -1,8 +1,8 @@
 {
     "credit": "Made with Blockbench",
     "textures": {
-        "0": "~/planks",
-        "particle": "~/planks"
+        "0": "~/plank_legacy",
+        "particle": "~/plank_legacy"
     },
     "elements": [
         {

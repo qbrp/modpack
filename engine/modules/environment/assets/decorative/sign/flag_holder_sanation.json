@@ -4,6 +4,7 @@
   "mtl_override": {
     "base": "~/flag_holder_sanation"
   },
+  "flat_light": true,
   "flip_v": true,
   "display": {
     "thirdperson_righthand": {

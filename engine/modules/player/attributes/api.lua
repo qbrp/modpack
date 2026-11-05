@@ -17,9 +17,10 @@ local operations = {
 }
 
 ---@param base number
----@param modifiers Modifier[]
+---@param modifiers Modifier[]?
 ---@return number
 local modify_attribute = function(base, modifiers)
+    local modifiers = modifiers or {}
     local computed = base
     for _, modifier in ipairs(modifiers) do
         local change = assert(operations[modifier.operation])
@@ -32,9 +33,14 @@ end
 ---@return table<string, Modifier[]>
 local modifiers = function(player)
     local inventory = player:require_component(builtin_components.player_inventory)
-    local held_item = inventory.main_hand_item
+    local held_items = {}
+
+    if inventory.main_hand_item then table.insert(held_items, inventory.main_hand_item) end
+    if inventory.off_hand_item then table.insert(held_items, inventory.off_hand_item) end
+
     local all_modifiers = {}
-    if held_item then
+    for _, held_item in ipairs(held_items) do
+        if not held_item then goto continue end
         local held_modifiers = held_item:get_component(components.held_modifier)
         if held_modifiers then
             for attribute, modifier in pairs(held_modifiers) do
@@ -42,6 +48,7 @@ local modifiers = function(player)
                 table.insert(modifiers_list, modifier)
             end
         end
+        ::continue::
     end
 
     return all_modifiers

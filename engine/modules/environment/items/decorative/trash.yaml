@@ -46,3 +46,34 @@ items:
     display_name: Каменный лом 5
   rock_scrap_full:
     display_name: Каменный лом
+  slate_short_damaged:
+    display_name: Короткий шифер повреждённый
+  slate_short:
+    display_name: Короткий шифер
+  slate_long_damaged:
+    display_name: Длинный шифер повреждённый
+  slate_long:
+    display_name: Длинный шифер
+  plank_long:
+    display_name: Загродительная доска
+  plank_stack:
+    display_name: Штабель досок
+  plank_think:
+    display_name: Толстая доска
+  metal_sheet_bent:
+    display_name: Погнутый металлический щит
+  metal_sheet_holes:
+    display_name: Дырявый металлический щит
+  metal_sheet_straight:
+    display_name: Металлический щит
+  rebar_long:
+    display_name: Длинный арматурный стержень
+  rebar_long_pointy:
+    display_name: Длинный заточенный арматурный стержень
+  rebar_short:
+    display_name: Арматурный стержень
+  rebar_short_pointy:
+    display_name: Заточенный арматурный стержень
+  particleboard:
+    display_name: Лист ДСП
+    mass: 25

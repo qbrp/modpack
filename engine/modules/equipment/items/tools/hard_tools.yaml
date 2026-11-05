@@ -2,9 +2,16 @@ namespace: tools/hard_tools
 items:
   sledgehammer:
     display_name: Кувалда
+    mass: 5
   sledgehammer_vagner:
     display_name: Кувалда "Вагнер"
+    mass: 5
   crowbar:
     display_name: Монтировка
+    mass: 2
   power_hammer:
     display_name: Латунный отбойный молоток
+    mass: 1
+  fubar:
+    display_name: Универсальный монтировочный инструмент
+    mass: 3

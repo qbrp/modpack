@@ -1,0 +1,6 @@
+namespace: backpack
+items:
+  tactical_backpack:
+    display_name: Рюкзак
+    outfit:
+      slot: slots/backpack

@@ -1,5 +1,6 @@
 namespace: environment
 namespaces:
+  - environment/money
   - environment/bodies/civil
   - environment/bodies/other
   - environment/bodies/ruined/1

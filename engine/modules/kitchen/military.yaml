@@ -18,9 +18,9 @@ items:
   buckwheat_sanation:
     display_name: Гречка
     mass: 1
-  concentrate_brick:
-    display_name: Брикет концентрата
-    mass: 0.01
   almond_cube:
     display_name: Миндальный кубик
     mass: 0.1
+  galeti:
+    display_name: Галеты Конфедерация
+    mass: 0.2

@@ -1,0 +1,208 @@
+---@meta
+
+--- Этот файл нужен для поддержки LuaLS-аннотаций.
+--- Не импортируйте его, так как он может сломать поведение скриптов.
+
+---@alias ReportSeverity
+---| "warning"
+---| "error"
+---| "fatal"
+
+---@alias CompilationPhase
+---| "install" # загрузка скриптов и выполнение функций
+---| "compilation" # маппинг
+---| "validation"
+---| "linking" # связь сущностей через идентификаторы
+
+---@class ReportLocation
+---@field source string
+---@field line integer?
+---@field column integer?
+---@field path string?
+
+---@class ReportTarget
+---@field kind ContentKind
+---@field local_id string
+
+---@class Report
+---@field severity ReportSeverity
+---@field message string
+---@field phase CompilationPhase
+---@field namespace string?
+---@field location ReportLocation?
+---@field target ReportTarget?
+
+---@class ReportCollector
+local reports = {}
+
+---@param rep Report
+function reports:report(rep) end
+
+---@param rep Report
+function reports:abort(rep) end
+
+---@param namespace string
+---@param id Id
+---@param kind ContentKind
+function reports:report_invalid_namespace(namespace, id, kind) end
+
+---@class CompilationContext
+---@field reports ReportCollector
+
+---@class EventListeners
+---@field player_instantiate fun(player: Player)?
+---@field player_destroy fun(player: Player)?
+---@field world_tick_20 fun(world: World)?
+---@field world_tick fun(world: World)?
+---@field place_voxel fun(context: VoxelActionContext)?
+---@field entity_materialization fun(context: EntityMaterializationContext)?
+---@field show_item_tooltip (fun(context: ItemTooltipContext): string[]?)?
+---@field player_input_tick fun(context: PlayerInputTickContext)?
+
+---@class InventoryTab
+---@field entries InventoryTabEntry[]
+
+---@class InventoryTabEntry
+---@field prefab IdReference
+---@field tooltip string[]
+
+---@class Build
+---@field namespaces NamespaceDraft[]
+---@field listeners EventListeners?
+---@field inventory_tab InventoryTab?
+---@field phases TickPhasesDraft
+
+---@class NamespaceDraft : ContentsDraft
+---@field id string
+
+---@class EquipmentSlotDraft
+---@field id IdReference
+---@field name string
+---@field part PlayerPart
+
+---@alias PlayerPart
+---| "head"
+---| "left_arm"
+---| "right_arm"
+---| "left_palm"
+---| "right_palm"
+---| "body"
+---| "left_leg"
+---| "right_leg"
+---| "left_feet"
+---| "right_feet"
+
+---@class SoundEventDraft
+---@field id IdReference
+---@field sources SoundSourceDraft[]
+
+---@class SoundSourceDraft
+---@field id IdReference
+---@field volume number
+---@field pitch number
+---@field weight integer
+---@field distance integer
+---@field pitch_random number
+
+---@class ProgressionAnimationDraft
+---@field id IdReference
+---@field frames string[]|ProgressionAnimationFramesDraft
+---@field text string
+---@field success string?
+
+---@class ProgressionAnimationFramesDraft
+---@field name string
+---@field count integer
+
+---@class TickPhasesDraft
+---@field base SystemPhase
+---@field after_verb_lookup SystemPhase
+
+---@class SystemPhase
+---@field name string
+---@field steps PhaseStep[]
+
+---@class PhaseStep
+---@field type string
+
+---@class PhaseStep.Phase : PhaseStep
+---@field type "phase"
+---@field phase SystemPhase
+
+---@class PhaseStep.System : PhaseStep
+---@field type "system"
+---@field system IdReference
+
+---@class SystemDraft
+---@field id IdReference
+---@field query ComponentTypeReference[]
+---@field side SystemSide
+---@field tick fun(world: World, entity: Entity, ...: Component)
+
+---@alias SystemSide
+---| "server"
+---| "client"
+---| "both"
+
+---@alias Migration fun(component: Component): Component
+
+---@class ComponentTypeSettings
+---@field id IdReference
+---@field replicating boolean? false
+---@field persistent boolean? false
+---@field version integer? 0
+---@field migrations Migration[]?
+
+---@class Script
+---@field id IdReference
+---@field execute fun(context: ScriptContext)
+
+---@class OperationDraft
+---@field id IdReference
+---@field execute fun(context: OperationContext)
+---@field name string? id
+---@field inputs OperationInputDraft[]? empty
+---@field permission boolean? false
+
+---@alias ScriptValue nil|boolean|number|string|table|EntityReference|userdata
+
+---@alias OperationInputDraft
+---| OperationLogicInputDraft
+---| OperationIntegerInputDraft
+---| OperationDoubleInputDraft
+---| OperationTableInputDraft
+---| OperationTextInputDraft
+---| OperationSelectionInputDraft
+
+---@class OperationInputBaseDraft
+---@field id string содержится в context.inputs
+
+---@class OperationLogicInputDraft : OperationInputBaseDraft
+---@field type "logic"
+
+---@class OperationIntegerInputDraft : OperationInputBaseDraft
+---@field type "integer"
+---@field min integer? Inclusive minimum
+---@field max integer? Inclusive maximum
+
+---@class OperationDoubleInputDraft : OperationInputBaseDraft
+---@field type "double"
+---@field min number? Inclusive minimum
+---@field max number? Inclusive maximum
+
+---@class OperationTableInputDraft : OperationInputBaseDraft
+---@field type "table"
+
+---@class OperationTextInputDraft : OperationInputBaseDraft
+---@field type "text"
+---@field single_word boolean?
+
+---@class OperationSelectionEntry
+---@field id string
+---@field value any
+
+---@alias OperationSelectionVariants OperationSelectionEntry[]|fun(context: OperationInputResolutionContext): OperationSelectionEntry[]?
+
+---@class OperationSelectionInputDraft : OperationInputBaseDraft
+---@field type "selection"
+---@field variants OperationSelectionVariants

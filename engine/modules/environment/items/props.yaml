@@ -47,7 +47,6 @@ items:
       slot: "@slots/gubi"
   ciggarete_box:
     display_name: Коробка сигарет
-  cash:
-    display_name: Деньги
   black_box:
     display_name: Чёрный ящик
+    mass: 2

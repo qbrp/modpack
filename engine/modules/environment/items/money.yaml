@@ -1,0 +1,45 @@
+namespace: money
+items:
+  bill_confederation_10:
+    display_name: Купюра 10$ Конфедерации
+    mass: 0.01
+    max_count: 32
+  bill_confederation_50:
+    display_name: Купюра 50$ Конфедерации
+    mass: 0.01
+    max_count: 32
+  bill_confederation_100:
+    display_name: Купюра 100$ Конфедерации
+    mass: 0.01
+    max_count: 32
+  bill_sanation_10:
+    display_name: Купюра 10$ Санации
+    mass: 0.01
+    max_count: 32
+  bill_sanation_50:
+    display_name: Купюра 50$ Санации
+    mass: 0.01
+    max_count: 32
+  bill_sanation_100:
+    display_name: Купюра 100$ Санации
+    mass: 0.01
+    max_count: 32
+  bill_stack_confederation_10:
+    display_name: Пачка 10$ купюр Конфедерации
+    mass: 0.01
+  bill_stack_confederation_50:
+    display_name: Пачка 50$ купюр Конфедерации
+    mass: 0.01
+  bill_stack_confederation_100:
+    display_name: Пачка 100$ купюр Конфедерации
+    mass: 0.01
+  bill_stack_sanation_10:
+    display_name: Пачка 10$ купюр Санации
+    mass: 0.01
+  bill_stack_sanation_50:
+    display_name: Пачка 50$ купюр Санации
+    mass: 0.01
+  bill_stack_sanation_100:
+    display_name: Пачка 100$ купюр Санации
+    mass: 0.01
+  

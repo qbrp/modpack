@@ -2,16 +2,22 @@ namespace: medicine
 items:
   bandage_basic:
     display_name: Бинт
+    mass: 0.1
   bandage_roll:
-    display_name: Бинт
+    display_name: Рулонный бинт
+    mass: 0.15
   bandage_fixator:
     display_name: Бинт с фиксатором
+    mass: 0.3
   bandage_military:
     display_name: Армейский бинт
+    mass: 0.15
   cat_tourniquet:
     display_name: Турникет для боевого применения
+    mass: 0.1
   esmarch_tourniquet:
     display_name: Жгут Эсмарха
+    mass: 0.12
   pills:
     display_name: Банка таблеток
     mass: 0.1

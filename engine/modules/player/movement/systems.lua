@@ -8,7 +8,7 @@ local declarations = require("core.composer.declarations")
 
 return declarations.multiple { ---@type SystemDraft[]
     {
-        id = "movement/speed_application",
+        id = "movement/application",
         query =  {
             components.movement_status,
             components.player_input,
@@ -29,11 +29,12 @@ return declarations.multiple { ---@type SystemDraft[]
             local previous_jump_strength = attributes.jump_strength
             local primary_attributes = settings.get_primary_attributes(mode.mode)
             local default_speed = customs.speed or primary_attributes.speed
+            local modifiers = modifiers(player)
 
             if movement.stamina < settings.jump_stamina_consume or (input.is_sprinting and not mode.is_game_master) then
                 attributes.jump_strength = 0
             else
-                attributes.jump_strength = primary_attributes.jump_strength
+                attributes.jump_strength = modify_attribute(primary_attributes.jump_strength, modifiers.jump_strength)
             end
 
             if mode.is_spectator then
@@ -63,10 +64,9 @@ return declarations.multiple { ---@type SystemDraft[]
                 max_speed
             )
 
-            local modifiers = modifiers(player)
             attributes.speed = math.lerp(
                 attributes.speed,
-                modify_attribute(target, modifiers.speed or {}),
+                modify_attribute(target, modifiers.speed),
                 0.2
             )
 
@@ -78,7 +78,7 @@ return declarations.multiple { ---@type SystemDraft[]
     },
     {
         id = "movement/stamina_consumption",
-        after = "movement/speed_application",
+        after = "movement/application",
         query = { components.movement_status, components.player_mode, components.player_velocity, components.player_input },
         side = "both",
         ---@param entity Entity

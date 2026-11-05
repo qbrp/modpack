@@ -34,3 +34,16 @@ items:
     display_name: Подушка
   pillow_clean:
     display_name: Подушка
+  double_locker_special:
+    display_name: Двойной металлический шкаф
+  locker_quad_special:
+    display_name: Металлические камеры хранения
+  locker_quad_special:
+    display_name: Четверные камеры хранения
+  locker_quad:
+    display_name: Четверной металлический шкаф
+  double_locker:
+    display_name: Двойной металлический шкаф
+  door_blocker:
+    display_name: Дверной блокиратор
+    mass: 15

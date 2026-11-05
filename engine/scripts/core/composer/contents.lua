@@ -1,0 +1,145 @@
+local drafts = require("core.composer.drafts")
+local categories = drafts.categories
+local listeners = require("core.composer.listeners")
+local declarations = require("core.composer.declarations")
+local files = require("core.composer.files")
+local symbolization = require("core.composer.symbolization")
+local resolving = require("core.composer.resolve")
+local templates = require("core.composer.templates")
+local placeholders = require("core.composer.placeholders")
+local items = require("core.composer.items")
+local phases = require("core.composer.phases")
+local namespaces_util = require("core.composer.namespaces")
+local components = require("core.composer.components")
+
+---@class ComposerModule
+---@field module Module
+---@field files ModuleFiles
+
+local composer = {}
+
+---@param categorized_symbols CategorizedSymbols
+---@param categories Categories
+---@return NamespaceDraft[]
+function composer.group_namespaces(categorized_symbols, categories)
+    ---@type NamespaceDraft[]
+    local result = {}
+    ---@type table<string, NamespaceDraft>
+    local namespaces = {}
+
+    for category_id, symbols in pairs(categorized_symbols) do
+        local category = assert(categories[category_id]) ---@type Category
+        for _, symbol in pairs(symbols) do
+            local namespace_id = symbol.id.namespace
+            local namespace = namespaces[namespace_id]
+            if not namespace then
+                namespace = drafts.namespace(namespace_id)
+                namespaces[namespace_id] = namespace
+                table.insert(result, namespace)
+            end
+
+            local namespace_category_id = category.draft_id
+            if namespace_category_id then
+                local namespace_category = namespace[namespace_category_id]
+                assert(namespace_category, "namespace " .. namespace_id .. "does not contains " .. namespace_category_id)
+                table.insert(namespace_category, symbol.value)
+            end
+        end
+    end
+
+    return result
+end
+
+---@class ComposerPlugin
+---@field name string
+---@field append_listeners (fun(context: CompilationContext): EventListeners[])?
+
+---@param context CompilationContext
+---@param plugins ComposerPlugin[]?
+---@return Build
+function composer.build(context, plugins)
+    local plugins = plugins or {}
+    local modules = engine.modules.enabled
+    local modules_names = table.map(
+        modules,
+        function(module)
+            return module.namespace
+        end
+    )
+
+    engine.logger.info(
+        "composing {} modules: {}",
+        tostring(#modules_names),
+        table.concat(modules_names, ", ")
+    )
+    engine.logger.info(
+        "using {} plugins: {}",
+        tostring(#plugins),
+        table.concat(table.map(plugins, function(plugin)
+            return plugin.name
+        end))
+    )
+
+    local module_files = files.scan(modules, categories)
+    -- Compilation mutates declaration drafts, so every build gets a fresh require generation.
+    declarations.begin_build(module_files)
+    local symbols = drafts.categorized_symbols(categories)
+    local module_drafts = {} ---@type ModuleSymbolsDraft[]
+    local listeners_list = {} ---@type EventListeners[]
+
+    for _, module in ipairs(modules) do
+        local files = module_files[module.namespace]
+        local categorized_declarations = declarations.normalize(declarations.parse(files), categories)
+        local symbols_draft = symbolization.module_draft(module, categories, categorized_declarations)
+        table.insert(module_drafts, symbols_draft)
+        listeners.collect(listeners_list, categorized_declarations)
+    end
+
+    for _, plugin in ipairs(plugins) do
+        if plugin.append_listeners then
+            local success, err = pcall(function()
+                table.insert_all(listeners_list, plugin.append_listeners(context))
+            end)
+            if not success then
+                context.reports:report_error {
+                    phase = "compilation",
+                    message = "Не удалось применить плагин компоновщика " .. plugin.name .. ": " .. tostring(err)
+                }
+            end
+        end
+    end
+
+    resolving.resolve_symbols(context, module_drafts, symbols)
+    templates.extend(symbols)
+    placeholders.extend(symbols)
+    components.setup_definitions(symbols.components)
+    items.lower_item_documents(context, symbols, categories)
+
+    local namespaces = composer.group_namespaces(symbols, categories)
+    local inventory_tab_entries = {
+        { prefab_id = "core/error/item" }
+    }
+
+    local sorted_namespaces = namespaces_util.sort(
+        table.shallow_copy(namespaces),
+        symbols
+    )
+    for _, namespace in ipairs(sorted_namespaces) do
+        for _, item_prefab in ipairs(namespace.item_prefabs) do
+            table.insert(inventory_tab_entries, {
+                prefab_id = item_prefab.id
+            })
+        end
+    end
+
+    return {
+        namespaces = namespaces,
+        listeners = listeners.merge(listeners_list),
+        phases = phases.compose(context, symbols),
+        inventory_tab = {
+            entries = inventory_tab_entries
+        }
+    }
+end
+
+return composer

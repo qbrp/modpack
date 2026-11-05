@@ -1,4 +1,4 @@
-# Blender 4.5.14 LTS MTL File: 'shelf.blend'
+# Blender 4.5.15 LTS MTL File: 'shelf.blend'
 # www.blender.org
 
 newmtl shelf
@@ -9,4 +9,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 illum 2
 map_Kd ~/shelf
-map_d shelf.png
+map_d C:/Users/lonsk/OneDrive/Рабочий стол/QBRP.obj/Мебель_декорации/shelf.png

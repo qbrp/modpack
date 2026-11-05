@@ -7,3 +7,11 @@ items:
   1kg_confederation:
     display_name: Концентрат пищевой Конфедерации (1 кг)
     mass: 1
+  concentrate_brick_confederation:
+    display_name: Брикет концентрата Конфедерация
+    mass: 0.1
+    max_count: 6
+  concentrate_brick_sanation:
+    display_name: Брикет концентрата Санация
+    mass: 0.1
+    max_count: 6

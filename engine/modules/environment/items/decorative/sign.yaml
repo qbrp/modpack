@@ -6,3 +6,15 @@ items:
     display_name: Держатель флага "Санация"
   flag_holder_confederation:
     display_name: Держатель флага "Конфедерация"
+  flag_holder_lgbt:
+    display_name: Держатель флага "ЛГБТ"
+  flag_holder_lesbians:
+    display_name: Держатель флага "Лесбиянки"
+  flag_holder_labris:
+    display_name: Держатель флага "Лабрис"
+  flag_holder_transgenders:
+    display_name: Держатель флага "Трансгендеры"
+  flag_holder_bisexuals:
+    display_name: Держатель флага "Бисексуалы"
+  flag_holder_free_russia:
+    display_name: Держатель флага "Свобода России"

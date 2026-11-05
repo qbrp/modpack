@@ -5,6 +5,7 @@ namespaces:
   - equipment/military
   - equipment/glasses
   - equipment/civil
+  - equipment/backpack
   - equipment/masks
   - equipment/containers
   - equipment/radios

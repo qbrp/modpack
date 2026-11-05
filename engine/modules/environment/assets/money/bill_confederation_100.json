@@ -1,0 +1,112 @@
+{
+  "obj": true,
+  "model": "~/bill",
+  "flip_v": true,
+  "mtl_override" : {
+	  "base": "~/bill_confederation_100"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        -1.7974577,
+        -1.2810752,
+        -1.7403399
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -1.7974577,
+        -1.2810752,
+        -1.7403399
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -1.9724551,
+        4.6268263,
+        -0.2299826
+      ],
+      "rotation": [
+        -287.54108,
+        -32.141235,
+        41.59149
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -1.9724551,
+        4.6268263,
+        -0.2299826
+      ],
+      "rotation": [
+        -287.54108,
+        -32.141235,
+        41.59149
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "gui": {
+      "translation": [
+        0.1071167,
+        0,
+        0
+      ],
+      "rotation": [
+        30,
+        45,
+        0
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -0.00003677735,
+        0,
+        0.04751587
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}
